@@ -2,14 +2,26 @@
 \babel@toc {brazilian}{}\relax 
 \babel@toc {brazilian}{}\relax 
 \contentsline {chapter}{\numberline {1}Introdução}{14}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Uma subseção}{14}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Grandes Modelos de Linguagem}{14}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Outra seção}{14}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Uma subseção}{15}{subsection.1.2.1}%
-\contentsline {chapter}{\numberline {2}Desenvolvimento}{16}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Conclusão}{18}{chapter.3}%
-\contentsline {chapter}{Refer{\^e}ncias}{19}{chapter.3}%
+\contentsline {chapter}{\numberline {2}LLM Powered applications}{16}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Fine tuning}{17}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Retrieval Augmented Generation}{17}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Engenharia de prompt}{17}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Function Calling e Output Parsers}{17}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Agentes}{17}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Desenvolvimento de uma LLM Powered Application para facilitar o consumo e aprendizagem através de vídeos}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Motivação}{18}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Features}{18}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Improved Readability}{18}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Transcrição/Tradução com Whisper}{18}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Auto Chapter}{18}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Geração de perguntas por capítulo}{18}{subsection.3.2.4}%
+\contentsline {chapter}{\numberline {4}Conclusão}{19}{chapter.4}%
+\contentsline {chapter}{Refer{\^e}ncias}{20}{chapter.4}%
 \settowidth {\ei@chapnumindent }{{\sffamily \textbf {\MakeUppercase {Ap{\^e}ndice} }}}\advance \ei@chapnumindent 1.8em\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {Ap{\^e}ndice} A}Um Apêndice}{21}{chapter.1}%
+\contentsline {chapter}{\numberline {\MakeUppercase {Ap{\^e}ndice} A}Um Apêndice}{22}{chapter.1}%
 \settowidth {\ei@chapnumindent }{{\sffamily \textbf {\MakeUppercase {Anexo} }}}\advance \ei@chapnumindent 1.8em\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {Anexo} A}Um Anexo}{23}{chapter.1}%
-\contentsline {chapter}{\numberline {\MakeUppercase {Anexo} B}Outro Anexo}{24}{chapter.2}%
+\contentsline {chapter}{\numberline {\MakeUppercase {Anexo} A}Um Anexo}{24}{chapter.1}%
+\contentsline {chapter}{\numberline {\MakeUppercase {Anexo} B}Outro Anexo}{25}{chapter.2}%
