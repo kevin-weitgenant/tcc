@@ -13,15 +13,15 @@
 \contentsline {section}{\numberline {2.5}Agentes}{17}{section.2.5}%
 \contentsline {chapter}{\numberline {3}Desenvolvimento de uma LLM Powered Application para facilitar o consumo e aprendizagem através de vídeos}{18}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Motivação}{18}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Features}{18}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Improved Readability}{18}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Transcrição/Tradução com Whisper}{18}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Auto Chapter}{18}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Geração de perguntas por capítulo}{18}{subsection.3.2.4}%
-\contentsline {chapter}{\numberline {4}Conclusão}{19}{chapter.4}%
-\contentsline {chapter}{Refer{\^e}ncias}{20}{chapter.4}%
+\contentsline {section}{\numberline {3.2}Features}{19}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Improved Readability}{19}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Transcrição/Tradução com Whisper}{19}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Auto Chapter}{19}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Geração de perguntas por capítulo}{19}{subsection.3.2.4}%
+\contentsline {chapter}{\numberline {4}Conclusão}{20}{chapter.4}%
+\contentsline {chapter}{Refer{\^e}ncias}{21}{chapter.4}%
 \settowidth {\ei@chapnumindent }{{\sffamily \textbf {\MakeUppercase {Ap{\^e}ndice} }}}\advance \ei@chapnumindent 1.8em\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {Ap{\^e}ndice} A}Um Apêndice}{22}{chapter.1}%
+\contentsline {chapter}{\numberline {\MakeUppercase {Ap{\^e}ndice} A}Um Apêndice}{23}{chapter.1}%
 \settowidth {\ei@chapnumindent }{{\sffamily \textbf {\MakeUppercase {Anexo} }}}\advance \ei@chapnumindent 1.8em\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {Anexo} A}Um Anexo}{24}{chapter.1}%
-\contentsline {chapter}{\numberline {\MakeUppercase {Anexo} B}Outro Anexo}{25}{chapter.2}%
+\contentsline {chapter}{\numberline {\MakeUppercase {Anexo} A}Um Anexo}{25}{chapter.1}%
+\contentsline {chapter}{\numberline {\MakeUppercase {Anexo} B}Outro Anexo}{26}{chapter.2}%
