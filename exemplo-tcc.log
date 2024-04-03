@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.26)  29 MAR 2024 14:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.26)  3 APR 2024 15:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -584,7 +584,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 298--299
 ]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.383 \chapter{Um Apêndice}
+l.399 \chapter{Um Apêndice}
                              [27
 
 ] [28
@@ -592,13 +592,13 @@ l.383 \chapter{Um Apêndice}
 ]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.387 \chapter{Um Anexo}
+l.403 \chapter{Um Anexo}
                          [29
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.409 \chapter{Outro Anexo}
+l.425 \chapter{Outro Anexo}
                             
 AED: lastpage setting LastPage
 [30
@@ -622,7 +622,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  75i,10n,77p,900b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on exemplo-tcc.pdf (30 pages, 116897 bytes).
+Output written on exemplo-tcc.pdf (30 pages, 118385 bytes).
 PDF statistics:
  367 PDF objects out of 1000 (max. 8388607)
  319 compressed objects within 4 object streams
