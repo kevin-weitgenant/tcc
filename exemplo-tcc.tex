@@ -19,7 +19,7 @@
 \cursoeng{Computer Science}
 
 
-\title{LLM-Powered Applications: Tecnologia, Questões e estudo de caso.}
+\title{VideoLearnAI: LLM Powered Web Application para aprendizagem ativa com vídeos do Youtube}
 
 \author{Aguiar}{Marilton Sanchotene de}
 \advisor[Prof.~Dr.]{Aguiar}{Marilton Sanchotene de}
@@ -128,261 +128,74 @@ Bla blabla blablabla bla.
 %Sumario
 \tableofcontents
 
-\chapter{Introdução}
+\chapter{Introduction}
+\section{Problem Context}
+The evolution of educational technologies has radically transformed traditional learning models, shifting from passive consumption to more engaging, interactive approaches. Active learning, a methodology that encourages students to actively participate in their learning process, has gained prominence due to its proven effectiveness. Unlike traditional learning environments, where students merely receive information, active learning involves tasks such as problem-solving, discussions, and peer teaching—methods that significantly enhance understanding and retention.
 
-\section{Grandes Modelos de Linguagem}
+However, despite the rapid advancement of digital platforms, many high-quality educational resources from leading institutions like MIT, Harvard, and Stanford remain vastly underutilized. College education is notoriously expensive, and many students are unable to afford tuition fees for top-tier institutions. Thankfully, the internet has democratized access to knowledge, offering free educational resources from prestigious colleges that would otherwise be out of reach. Platforms like YouTube host a wealth of content, including recorded lectures, research papers, and open courses.
 
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.
+Yet, much of this content remains passive—primarily consisting of long lecture videos or static reading materials—which limits student interaction and engagement. Without the support of a well-designed platform to help users interact with the content and actively engage in their learning, these valuable resources fail to reach their full potential. The gap between the vast amount of available content and the active learning opportunities it can provide is significant and must be addressed to truly harness the power of digital education.
 
-\begin{quote}
-  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-  blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-  Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-  blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla
-  bla~\citet{Moore:1979:MAI,Aguiar:2005}.
-\end{quote}
-  
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.
+\section{Justification}
+Active learning is a well-established approach to improving student outcomes. According to Bonwell and Eison (1991), "Active learning is not a new fad; it is a proven strategy that enhances student engagement and helps students learn more effectively." This method has been linked to better knowledge retention, improved critical thinking, and increased motivation among learners. As educational content continues to shift to digital platforms, it becomes essential to transform passive resources into more dynamic, interactive experiences that encourage active learning.
 
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla~\cite{vonNeumann:1966:TSR}.
+In particular, video-based content, which has become ubiquitous in online education, offers a significant opportunity to incorporate active learning strategies. By integrating tools such as interactive quizzes, chapter summaries, and discussions into video lectures, we can create a more engaging learning environment that prompts students to actively process and apply the material. The availability of high-quality content from top universities and online platforms such as Coursera and edX presents an ideal opportunity to experiment with these approaches and unlock the full potential of digital learning.
 
-\section{Outra seção}
-
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla~\ref{tabela}.
-
-\begin{table}
-\caption{Nome da Tabela}\label{tabela2}
-\centering\begin{tabular}{p{4cm}p{5cm}p{6cm}}
-\hline
-Blabla & Blabla & Blablabla\\
-\hline
-{\small Bla} & {\small Blabla} & {\small\em Bla blabla blablabla blabla
-  blablabla blabla blablabla.}\\
-{\small Bla} & {\small Blabla} & {\small\em Bla blabla blablabla blabla
-  blablabla blabla blablabla.}\\
-{\small Bla} & {\small Blabla} & {\small\em Bla blabla blablabla blabla
-  blablabla blabla blablabla.}\\
-{\small Bla} & {\small Blabla} & {\small\em Bla blabla blablabla blabla
-  blablabla blabla blablabla.}\\
-{\small Bla} & {\small Blabla} & {\small\em Bla blabla blablabla blabla
-  blablabla blabla blablabla.}\\
-{\small Bla} & {\small Blabla} & {\small\em Bla blabla blablabla blabla
-  blablabla blabla blablabla. Conforme a figura~\ref{figura}}\\
-\hline
-\end{tabular}
-\begin{flushleft}
-{\small Fonte: Elaborada pelo autor.}    
-\end{flushleft}
-\end{table}
-
-
-\subsection{Uma subseção}
-
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.
-
-\chapter{LLM Powered applications}
-
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla~\ref{tabela2}.
-
-\begin{table}
-  \begin{center}
-    \caption{Nome da Tabela}\label{tabela2}
-    \begin{tabular}{p{4cm}p{5cm}p{6cm}}
-      \hline
-      Blabla & Blabla & Blablabla\\
-      \hline
-      {\small Bla} & {\small Blabla} & {\small\em Bla blabla blablabla blabla
-                                       blablabla blabla blablabla.}\\
-      {\small Bla} & {\small Blabla} & {\small\em Bla blabla blablabla blabla
-                                       blablabla blabla blablabla.}\\
-      {\small Bla} & {\small Blabla} & {\small\em Bla blabla blablabla blabla
-                                       blablabla blabla blablabla.}\\
-      {\small Bla} & {\small Blabla} & {\small\em Bla blabla blablabla blabla
-                                       blablabla blabla blablabla.}\\
-      {\small Bla} & {\small Blabla} & {\small\em Bla blabla blablabla blabla
-                                       blablabla blabla blablabla.}\\
-      {\small Bla} & {\small Blabla} & {\small\em Bla blabla blablabla blabla
-                                       blablabla blabla blablabla. Conforme a figura~\ref{figura}}\\
-      \hline
-    \end{tabular}
-  \end{center}
-\end{table}
-
-\begin{figure}[htbp]
-\caption{Nome da figura}   
-\centering \includegraphics[scale=.4]{figura}\\
-\begin{flushleft}
-{\small Fonte: Elaborada pelo autor.}    
-\end{flushleft}
-\label{figura}
-\end{figure}
-
-
-\section{Fine tuning}
-\section{Retrieval Augmented Generation}
-\section{Engenharia de prompt}
-A engenharia de prompt é uma disciplina emergente que desempenha um papel fundamental na utilização e eficiência de modelos de linguagem grandes (LLMs), especialmente dentro do domínio das tarefas de processamento de linguagem natural. A medida que a IA continua a permear diversos setores, a habilidade de comunicar efetivamente com esses sistemas torna-se crucial. Este capítulo tem como objetivo dissecar o conceito de engenharia de prompt, suas técnicas, aplicações e o profundo impacto que ela tem em diferentes campos.
-
-\subsection*{Técnicas de Engenharia de Prompt}
-Essencialmente, a engenharia de prompt é a prática de formular e refinar prompts para maximizar o desempenho de modelos de linguagem. Um prompt bem elaborado pode alterar significativamente a saída de uma IA, fazendo a diferença entre uma resposta útil e uma irrelevante.
-
-A engenharia de prompt eficaz depende de vários princípios centrais que garantem clareza, especificidade e relevância na interação com sistemas de IA. Esses princípios incluem escrever instruções claras e descritivas, usar delimitadores, fornecer exemplos, atribuir papéis, adicionar informações de contexto, dividir tarefas complexas e solicitar múltiplas soluções. Técnicas avançadas também envolvem a sinergia de raciocínio e ação em modelos de linguagem, como modelos auxiliados por programas, raciocínio automático e uso de ferramentas, e ajuste de prompt para adaptar as respostas do modelo a necessidades específicas (\href{https://daveai.substack.com/p/prompt-engineering-full-guide}{DaveAI}).
-
-\subsubsection*{Técnicas Avançadas de Prompt}
-
-As técnicas avançadas de prompt englobam uma variedade de estratégias projetadas para obter respostas mais sofisticadas de LLMs. Estas incluem prompt de encadeamento de pensamento, que encoraja os modelos a exibir seu processo de raciocínio, e prompt de menor para maior, que guia os modelos por meio de uma série progressiva de complexidade em suas respostas. Além disso, o prompt de geração de conhecimento e o uso de modelos de árvore de pensamento representam abordagens inovadoras para a resolução de problemas com IA (\href{https://arxiv.org/abs/2210.03629}{Arxiv}).
-
-\subsection*{Aplicações da Engenharia de Prompt}
-
-As aplicações da engenharia de prompt são vastas e variadas. Na escrita acadêmica, os pesquisadores podem aproveitar a engenharia de prompt para simplificar revisões de literatura, sintetizar informações complexas e até mesmo gerar rascunhos de artigos. Além da academia, a engenharia de prompt é instrumental em áreas como atendimento ao cliente, onde a IA pode fornecer respostas personalizadas a perguntas, e em indústrias criativas, onde a IA pode auxiliar na criação de conteúdo que varia da escrita à geração de imagens (\href{https://intellyverse.com/blog/prompt-engineering}{Intellyverse}).
-
-\subsection*{Impacto da Engenharia de Prompt}
-
-O impacto da engenharia de prompt é substancial, pois influencia diretamente a eficácia das interações de IA. Ao otimizar prompts, os usuários podem obter saídas mais precisas e contextualmente relevantes dos sistemas de IA, aumentando assim a produtividade e reduzindo o potencial de mal-entendidos. O campo também levanta importantes considerações sobre o uso ético da IA, já que os prompts em si podem moldar a natureza das informações fornecidas pela IA (\href{https://link.springer.com/content/pdf/10.1007/s10439-023-03272-4.pdf?pdf=button}{Giray}).
-
-\subsection*{Conclusão}
-
-A engenharia de prompt não é apenas uma habilidade técnica, mas uma forma de arte que requer um profundo entendimento tanto da linguagem quanto da tecnologia. À medida que a IA se torna cada vez mais sofisticada, o papel do engenheiro de prompt se tornará ainda mais crítico na moldagem das interações entre humanos e máquinas. A disciplina está no cruzamento da comunicação, tecnologia e criatividade, oferecendo uma nova fronteira para exploração e inovação na era da IA.
-
-\section*{Lista de Referências}
+\section{Objectives}
+The primary objective of this work is to develop a platform that facilitates active learning by incorporating interactive elements into educational video content. Specifically, the objectives are:
 
 \begin{itemize}
-  \item Giray, Louie. "Engenharia de Prompt com ChatGPT: Um Guia para Escritores Acadêmicos." \textit{Springer Nature}, 2023, \url{https://link.springer.com/article/10.1007/s10439-023-03272-4}.
-  \item "Como se Tornar um Engenheiro de Prompt." \textit{DataCamp}, \url{https://www.datacamp.com/blog/how-to-become-a-prompt-engineer}.
-  \item "Guia Completo de Engenharia de Prompt." \textit{DaveAI}, \url{https://daveai.substack.com/p/prompt-engineering-full-guide}.
-  \item "Sinergizando Raciocínio e Ação em Modelos de Linguagem." \textit{Arxiv}, \url{https://arxiv.org/abs/2210.03629}.
-  \item "Engenharia de Prompt." \textit{Intellyverse}, \url{https://intellyverse.com/blog/prompt-engineering}.
+    \item To develop a platform that enhances video-based learning by integrating features such as chapter summaries, interactive Q\&A sessions, and true/false questions for each video segment.
+    \item To utilize high-quality educational content from top universities and open-access platforms, adapting it to support active learning methods.
+    \item To evaluate the effectiveness of active learning techniques on student engagement and retention through user feedback and performance testing.
+    \item To explore scalability by extending the platform to a variety of subjects and content types, from technical courses to humanities.
 \end{itemize}
 
+By achieving these goals, we aim to contribute to the growing body of research on the integration of active learning with digital education platforms, helping to bridge the gap between the vast amount of available content and the need for engaging, effective learning experiences.
 
-\section{DSPy e a Transformação da Engenharia de Instruções em Modelos de Linguagem de Grande Escala}
-\textbf{Resumo}
-
-O surgimento do DSPy marca um marco significativo na evolução do desenvolvimento de aplicativos de Modelos de Linguagem de Grande Escala (LLMs). Ao introduzir instruções programáticas, o DSPy aborda a fragilidade inerente às aplicações baseadas em LLM e transforma a prática da engenharia de instruções. Este capítulo examina o framework DSPy, suas implicações para a engenharia de instruções e o impacto mais amplo no desenvolvimento de sistemas inteligentes.
-
-\textbf{Introdução}
-
-O campo da inteligência artificial testemunhou o surgimento de LLMs, que se tornaram cruciais em várias aplicações. No entanto, a complexidade e a fragilidade na construção dessas aplicações apresentam desafios que o DSPy busca superar. O DSPy substitui a engenharia de instruções tradicional por uma abordagem centrada na programação, oferecendo aos desenvolvedores um método robusto e sistemático para instruir LLMs (Monigatti). Este capítulo adentra o framework do DSPy e seu efeito transformador no desenvolvimento de aplicações GenAI.
-
-\textbf{Framework DSPy}
-
-O DSPy, desenvolvido por pesquisadores como Matei Zaharia, oferece uma abordagem inovadora para o desenvolvimento de aplicações LLM. Ele desloca o foco da elaboração de instruções específicas para um modelo de programação que encapsula todo o pipeline de interações LLM. O framework fornece módulos componíveis e declarativos com uma sintaxe Pythonica, permitindo aos desenvolvedores escrever código livremente com construções familiares como loops, instruções if e exceções (Datanami).
-
-\textbf{Instrução Programática}
-
-No cerne do DSPy está o conceito de instrução programática, que permite aos desenvolvedores definir o comportamento dos LLMs através de código em vez de instruções ad hoc. O framework inclui um compilador que otimiza automaticamente as etapas declarativas do programa, abstraindo assim a complexidade da engenharia de instruções. Este método não só simplifica o processo de desenvolvimento, mas também melhora a robustez e a escalabilidade de sistemas baseados em LLM (Stanford NLP).
-
-\textbf{Otimização de Desempenho}
-
-O DSPy demonstrou sua eficácia através de melhorias significativas em métricas de desempenho. Por exemplo, em pipelines autoiniciados, os programas compilados do DSPy superaram as instruções padrão de poucas etapas e as demonstrações criadas por especialistas, alcançando ganhos de mais de 25\% e 65\% para GPT-3.5 e llama2-13b-chat, respectivamente (arXiv). Esses resultados destacam o potencial do DSPy para elevar as capacidades dos LLMs além das técnicas convencionais de instrução.
-
-\textbf{Impacto na Engenharia de Instruções}
-
-A engenharia de instruções, a arte de elaborar instruções para obter respostas desejadas dos LLMs, tem sido um aspecto crítico, porém frágil, do desenvolvimento de IA. A abordagem do DSPy para a instrução programática reduz significativamente a dependência da elaboração manual de instruções, mitigando assim os problemas associados à engenharia de instruções.
-
-\textbf{Redução da Fragilidade}
-
-As aplicações baseadas em LLM são propensas a degradação de desempenho quando ocorrem mudanças no LLM ou no pipeline de dados. O paradigma de programação sobre instrução do DSPy minimiza essa fragilidade, fornecendo um framework estável e sistemático para definir o comportamento do LLM. A capacidade de ajustar e otimizar as instruções programaticamente leva a aplicações mais resilientes (Monigatti).
-
-\textbf{Experiência do Desenvolvedor Aprimorada}
-
-A transição da engenharia de instruções para instrução programática oferece aos desenvolvedores uma abstração mais intuitiva e poderosa para a construção de aplicações. Com o DSPy, os desenvolvedores podem aproveitar suas habilidades de programação existentes para projetar interações LLM complexas, sem a necessidade de elaboração intricada de instruções. Essa mudança não só simplifica o processo de desenvolvimento, mas também abre novas possibilidades de inovação no campo das aplicações GenAI (Datanami).
-
-\textbf{Conclusão}
-
-O DSPy representa uma mudança de paradigma no desenvolvimento de aplicações baseadas em LLM. Ao substituir a engenharia de instruções tradicional por um modelo centrado na programação, o DSPy aprimora a robustez, o desempenho e a experiência do desenvolvedor de sistemas de IA. Conforme o framework continua a evoluir, ele está pronto para redefinir o cenário da engenharia de instruções e pavimentar o caminho para aplicações LLM mais sofisticadas e confiáveis.
+\section{Structure of the Work}
+This document is organized as follows: Chapter 2 provides a literature review on active learning, language models, and SaaS development. Chapter 3 details the methodology, including the development strategy and tools used. Chapter 4 discusses the implementation of the platform and its features. Chapter 5 presents the results of the platform's performance and user feedback. Finally, Chapter 6 concludes the work with a discussion of the objectives achieved, lessons learned, and future improvements.
 
 
+\chapter{Literature Review}
+\section{Active Learning and Its Potential}
+\section{Artificial Intelligence and Language Models (LLMs)}
+\section{Technologies for SaaS Development}
+\section{Applications of LLMs in Educational Platforms}
+\section{Existing Solutions in the Market}
 
+\chapter{Methodology}
+\section{Development Strategy}
+\section{Tools and Technologies Used}
+\section{Full Stack Application Architecture}
+\section{Success Criteria and Evaluation}
 
+\chapter{Application Development}
+\section{Planning and Definition of Features}
+\section{Front-End Structure}
+\section{Back-End Structure and Integrations}
+\section{Implementation of LLMs in the Application}
+\section{Implementation of Interactive Features}
+\section{Challenges Faced and Solutions Adopted}
 
+\chapter{Results}
+\section{Platform Functionality}
+\section{Performance and Scalability}
+\section{User Feedback and Testing}
+\section{Practical Demonstration}
 
-\section{Function Calling e Output Parsers}
+\chapter{Conclusion}
+\section{Objectives Achieved}
+\section{Lessons Learned}
+\section{Future Improvements and Scalability Plans}
+\section{Final Considerations}
 
-Para a integração efetiva de aplicações potencializadas por Modelos de Linguagem de Grande Escala (LLMs), como a GPT, é crucial implementar interfaces de chamada de função (Function Calling) e mecanismos de análise de saída (Output Parsers). Estes componentes são fundamentais para a interoperabilidade entre sistemas de software tradicionais e as capacidades avançadas de processamento de linguagem natural oferecidas pelos LLMs. A interoperabilidade requer uma padronização na saída dos dados do processamento da LLM, para o qual o formato JSON é frequentemente preferido devido à sua ampla adoção e facilidade de uso em diferentes plataformas e linguagens de programação.
+\chapter{References}
 
-A chamada de função é um procedimento que permite a solicitação de serviços computacionais específicos do LLM, passando parâmetros de entrada de forma estruturada e recebendo um resultado que pode ser posteriormente processado ou apresentado ao usuário. Este paradigma é essencial para a modularidade e a reutilização de código, permitindo que o LLM seja invocado de maneira controlada e previsível.
+\chapter{Appendices}
+\section{Source Code}
+\section{Technical Documentation}
 
-Por outro lado, os analisadores de saída são projetados para interpretar e converter os dados brutos fornecidos pelo LLM em formatos utilizáveis por outros sistemas. Isso inclui a extração de informações relevantes, a transformação de estruturas de dados complexas em representações mais simplificadas ou a tradução de saídas em ações ou comandos específicos de software.
-
-A adoção desses mecanismos é uma prática recomendada que promove a abstração, a manutenção e a escalabilidade em ambientes de desenvolvimento de software, oferecendo uma ponte robusta entre a inteligência artificial avançada e as aplicações do dia a dia. Garantir a compatibilidade e a comunicação eficiente entre esses sistemas distintos é um desafio que, quando superado, desbloqueia um novo horizonte de possibilidades em computação e tecnologia da informação.
-
-
-
-
-
-
-
-
-\section{Agentes}
-\chapter{Desenvolvimento de uma LLM Powered Application para facilitar o consumo e aprendizagem através de vídeos}
-
-\section{Motivação}
-
-A aprendizagem ativa tem sido objeto de vários artigos acadêmicos importantes, destacando seu impacto positivo nos resultados dos alunos. A pesquisa de Freeman et al. (2014) demonstrou que a aprendizagem ativa pode aumentar significativamente as notas dos alunos em relação aos métodos didáticos, com alunos em cursos sem aprendizagem ativa sendo 1,5 vezes mais propensos a reprovar do que aqueles com aprendizagem ativa. Além disso, a aprendizagem ativa tem sido mostrada positiva para melhorar a motivação dos alunos, habilidades de pensamento crítico, retenção de informações e habilidades interpessoais. Por outro lado, a aprendizagem passiva, como assistir a vídeos, tem sido associada a desvantagens, como níveis mais baixos de engajamento e compreensão superficial de conceitos-chave.
-
-Além disso, dado o contexto de excesso de dados e nossa crescente dificuldade em navegar em meio a um mar de informações, cada vez mais se faz necessário tecnologias que possam ajudar com esses problemas contemporâneos.
-
-É importante ressaltar também que muitas vezes o conteúdo de interesse está disponível em outra língua, dificultando a aprendizagem. Apesar do Youtube possibilitar a geração de legendas automáticas, a legenda gerada por esse método não possui tanta qualidade quanto por exemplo com os modelos mais avançados de Reconhecimento de Voz Automático (ASR).
-
-A criação de uma aplicação potencializada por LLMs e ASR, como o Whisper, tem o poder de transformar vídeos educacionais em experiências de aprendizagem mais ricas e interativas. Ao incorporar funcionalidades como a geração automática de capítulos, facilitação de perguntas e respostas por capítulos, e o uso de Retrieval Augmented Generation (RAG) para melhoria do QA em vídeos, esta aplicação não apenas melhora a acessibilidade e a personalização do conteúdo, mas também promove a aprendizagem ativa e engajada. Ademais, a transcrição e geração automática de legendas tornam o conteúdo acessível para um público mais amplo, independentemente do idioma nativo do espectador, ampliando assim o alcance e a eficácia da educação por meio de vídeos.
-
-
-
-
-\section{Features}
-\subsection{Improved Readability}
-\subsection{Transcrição/Tradução com Whisper}
-\subsection{Auto Chapter}
-\subsection{Geração de perguntas por capítulo}
-
-
-
-\chapter{Conclusão}
 
 
 
