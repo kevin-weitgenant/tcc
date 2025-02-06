@@ -11,9 +11,9 @@
 }
 
 \unidade{Centro de Desenvolvimento Tecnológico}
-\curso{Ciência da Computação}
-\nomecurso{Bacharelado em Ciência da Computação}
-\titulocurso{Bacharel em Ciência da Computação}
+\curso{Engenharia de Computação}
+\nomecurso{Bacharelado em Engenharia de Computação}
+\titulocurso{Bacharel em Engenharia de Computação}
 
 \unidadeeng{Technology Development Center}
 \cursoeng{Computer Science}
@@ -21,10 +21,9 @@
 
 \title{VideoLearnAI: LLM Powered Web Application para aprendizagem ativa com vídeos do Youtube}
 
-\author{Aguiar}{Marilton Sanchotene de}
-\advisor[Prof.~Dr.]{Aguiar}{Marilton Sanchotene de}
+\author{Weitgenant}{Kevin Castro}
+\advisor[Prof.~Dr.]{Primo}{Tiago}
 \coadvisor[Prof.~Dr.]{Aguiar}{Marilton Sanchotene de}
-\collaborator[Prof.~Dr.]{Aguiar}{Marilton Sanchotene de}
 
 %Palavras-chave em PT_BR
 %use letras minúsculas seguidas por ;
@@ -54,7 +53,7 @@
 %\folhadeaprovacao
 
 %Composição da Banca Examinadora
-\begin{aprovacao}{30 de fevereiro de 2019} %data da banca por extenso
+\begin{aprovacao}{16 de março de 2025} %data da banca por extenso
 \noindent Prof. Dr. Marilton Sanchotene de Aguiar (orientador)\\
 Doutor em Computação pela Universidade Federal do Rio Grande do Sul.\\[1cm]
 
@@ -86,29 +85,15 @@ Doutor em Biotecnologia pela Universidade Federal de Pelotas.
 
 %Resumo em Portugues (no maximo 500 palavras)
 \begin{abstract}
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.
-\end{abstract}
-
-%Resumo em Inglês (no maximo 500 palavras)
-\begin{englishabstract}{Titulo do Trabalho em Ingles}
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.  Bla blabla blablabla bla.  Bla blabla
-blablabla bla.  Bla blabla blablabla bla.  Bla blabla blablabla bla.
-Bla blabla blablabla bla.
-\end{englishabstract}
+  Este trabalho apresenta o desenvolvimento de uma plataforma educacional como serviço (SaaS) que utiliza Inteligência Artificial para aprimorar a experiência de aprendizagem com conteúdo em vídeo. O sistema implementa cinco funcionalidades principais: melhoria automática da legibilidade de legendas, geração de capítulos, transcrição sincronizada, geração de quizzes interativos e um sistema de bate-papo contextual com o conteúdo do vídeo. A solução emprega Large Language Models (LLMs) e arquitetura Transformer para processar e transformar o conteúdo audiovisual em material educacional interativo. A implementação foi realizada com foco em escalabilidade e performance, utilizando processamento em GPU e técnicas modernas de desenvolvimento de software. Os resultados demonstram o potencial da plataforma para transformar vídeos em experiências de aprendizagem mais engajadoras e efetivas.
+  
+  \end{abstract}
+  
+  %Resumo em Inglês (no maximo 500 palavras)
+  \begin{englishabstract}{AI-Powered Educational Platform: Transforming Video Content into Interactive Learning Experiences}
+  This work presents the development of an educational Software as a Service (SaaS) platform that leverages Artificial Intelligence to enhance video-based learning experiences. The system implements five main functionalities: automatic subtitle readability improvement, chapter generation, synchronized transcription, interactive quiz generation, and a contextual chat system for video content. The solution employs Large Language Models (LLMs) and Transformer architecture to process and transform audiovisual content into interactive educational material. The implementation focused on scalability and performance, utilizing GPU processing and modern software development techniques. The results demonstrate the platform's potential for transforming videos into more engaging and effective learning experiences.
+  
+  \end{englishabstract}
 
 %Lista de Figuras
 \listoffigures
@@ -128,75 +113,108 @@ Bla blabla blablabla bla.
 %Sumario
 \tableofcontents
 
-\chapter{Introduction}
-\section{Problem Context}
-The evolution of educational technologies has radically transformed traditional learning models, shifting from passive consumption to more engaging, interactive approaches. Active learning, a methodology that encourages students to actively participate in their learning process, has gained prominence due to its proven effectiveness. Unlike traditional learning environments, where students merely receive information, active learning involves tasks such as problem-solving, discussions, and peer teaching—methods that significantly enhance understanding and retention.
+\chapter{Introdução}
+Nos últimos anos, o consumo de conteúdo educacional em vídeo tem crescido exponencialmente, impulsionado por plataformas como YouTube, Coursera e Udemy. Hoje, é possível encontrar aulas completas de universidades de altíssimo nível, como MIT, Harvard e Stanford, gratuitamente disponíveis online. No entanto, apesar da abundância de material de qualidade, muitos usuários enfrentam dificuldades em absorver e reter conhecimento de forma eficiente. A maioria das pessoas consome esses conteúdos de maneira passiva, apenas assistindo aos vídeos sem um envolvimento ativo com o material. Isso limita a retenção e a compreensão das informações.
 
-However, despite the rapid advancement of digital platforms, many high-quality educational resources from leading institutions like MIT, Harvard, and Stanford remain vastly underutilized. College education is notoriously expensive, and many students are unable to afford tuition fees for top-tier institutions. Thankfully, the internet has democratized access to knowledge, offering free educational resources from prestigious colleges that would otherwise be out of reach. Platforms like YouTube host a wealth of content, including recorded lectures, research papers, and open courses.
+A aprendizagem ativa, por outro lado, é um modelo comprovadamente mais eficaz, pois envolve o estudante em processos como resumo, questionamento, reorganização do conteúdo e interação com o material. Pesquisas mostram que métodos ativos de estudo, como fazer perguntas sobre o conteúdo, testar-se frequentemente e organizar a informação de forma estruturada, levam a um aprendizado mais profundo e duradouro. 
 
-Yet, much of this content remains passive—primarily consisting of long lecture videos or static reading materials—which limits student interaction and engagement. Without the support of a well-designed platform to help users interact with the content and actively engage in their learning, these valuable resources fail to reach their full potential. The gap between the vast amount of available content and the active learning opportunities it can provide is significant and must be addressed to truly harness the power of digital education.
+Diante desse cenário, este trabalho apresenta o desenvolvimento de um Software as a Service (SaaS) voltado para transformar o consumo passivo de vídeos educacionais em um processo de aprendizagem ativa. A solução utiliza modelos de linguagem natural (LLMs) para reestruturar legendas em textos mais legíveis, gerar capítulos automáticos, fornecer resumos e permitir interações como perguntas e respostas sobre o conteúdo. Além disso, o sistema oferece quizzes dinâmicos para reforçar o aprendizado e um mecanismo para salvar o progresso dos usuários, incentivando um envolvimento mais estruturado com os vídeos.
 
-\section{Justification}
-Active learning is a well-established approach to improving student outcomes. According to Bonwell and Eison (1991), "Active learning is not a new fad; it is a proven strategy that enhances student engagement and helps students learn more effectively." This method has been linked to better knowledge retention, improved critical thinking, and increased motivation among learners. As educational content continues to shift to digital platforms, it becomes essential to transform passive resources into more dynamic, interactive experiences that encourage active learning.
+O desenvolvimento do SaaS seguiu uma abordagem iterativa. A arquitetura da aplicação integra tecnologias como FastAPI, Next.js e Transformers, além de estratégias de otimização para garantir eficiência e escalabilidade. A validação da ferramenta inclui métricas de desempenho e feedback dos usuários, avaliando sua eficácia na melhoria da compreensão e retenção do conhecimento.
 
-In particular, video-based content, which has become ubiquitous in online education, offers a significant opportunity to incorporate active learning strategies. By integrating tools such as interactive quizzes, chapter summaries, and discussions into video lectures, we can create a more engaging learning environment that prompts students to actively process and apply the material. The availability of high-quality content from top universities and online platforms such as Coursera and edX presents an ideal opportunity to experiment with these approaches and unlock the full potential of digital learning.
+Com esta pesquisa, buscamos não apenas oferecer uma ferramenta inovadora para aprendizado com vídeos, mas também contribuir para a democratização da educação de qualidade, permitindo que qualquer pessoa tenha acesso a um método mais eficaz para extrair o máximo de conhecimento dos conteúdos disponíveis online.
 
-\section{Objectives}
-The primary objective of this work is to develop a platform that facilitates active learning by incorporating interactive elements into educational video content. Specifically, the objectives are:
+\section{Objetivo geral}
+O objetivo geral deste trabalho é desenvolver um Software as a Service (SaaS) que transforme o consumo passivo de vídeos educacionais em um processo de aprendizagem ativa. Para isso, a plataforma utilizará inteligência artificial para melhorar a legibilidade das legendas, gerar resumos, estruturar conteúdos em capítulos, criar quizzes interativos e permitir interações diretas com o conteúdo por meio de perguntas e respostas. O foco é tornar o aprendizado com vídeos mais eficiente, estruturado e acessível, permitindo que qualquer pessoa aproveite melhor o vasto acervo educacional disponível online.
+\section{Objetivos Específicos}
+
+Para atingir o objetivo geral, este trabalho busca:
 
 \begin{itemize}
-    \item To develop a platform that enhances video-based learning by integrating features such as chapter summaries, interactive Q\&A sessions, and true/false questions for each video segment.
-    \item To utilize high-quality educational content from top universities and open-access platforms, adapting it to support active learning methods.
-    \item To evaluate the effectiveness of active learning techniques on student engagement and retention through user feedback and performance testing.
-    \item To explore scalability by extending the platform to a variety of subjects and content types, from technical courses to humanities.
+    \item Desenvolver um sistema que reestruture legendas de vídeos em textos mais legíveis e organizados, facilitando a compreensão.
+    \item Implementar um mecanismo para geração automática de capítulos e resumos, permitindo uma navegação mais eficiente pelo conteúdo.
+    \item Criar um módulo de perguntas e respostas, possibilitando interações com o vídeo de forma contextualizada.
+    \item Desenvolver um sistema de quizzes automáticos baseados no conteúdo dos vídeos, reforçando o aprendizado ativo.
+    \item Implementar um sistema de salvamento de progresso para permitir que usuários retomem facilmente seus estudos.
 \end{itemize}
 
-By achieving these goals, we aim to contribute to the growing body of research on the integration of active learning with digital education platforms, helping to bridge the gap between the vast amount of available content and the need for engaging, effective learning experiences.
+\section{Estrutura do Trabalho}
+Este trabalho está organizado da seguinte forma:
 
-\section{Structure of the Work}
-This document is organized as follows: Chapter 2 provides a literature review on active learning, language models, and SaaS development. Chapter 3 details the methodology, including the development strategy and tools used. Chapter 4 discusses the implementation of the platform and its features. Chapter 5 presents the results of the platform's performance and user feedback. Finally, Chapter 6 concludes the work with a discussion of the objectives achieved, lessons learned, and future improvements.
-
-
-\chapter{Literature Review}
-\section{Active Learning and Its Potential}
-\section{Artificial Intelligence and Language Models (LLMs)}
-\section{Technologies for SaaS Development}
-\section{Applications of LLMs in Educational Platforms}
-\section{Existing Solutions in the Market}
-
-\chapter{Methodology}
-\section{Development Strategy}
-\section{Tools and Technologies Used}
-\section{Full Stack Application Architecture}
-\section{Success Criteria and Evaluation}
-
-\chapter{Application Development}
-\section{Planning and Definition of Features}
-\section{Front-End Structure}
-\section{Back-End Structure and Integrations}
-\section{Implementation of LLMs in the Application}
-\section{Implementation of Interactive Features}
-\section{Challenges Faced and Solutions Adopted}
-
-\chapter{Results}
-\section{Platform Functionality}
-\section{Performance and Scalability}
-\section{User Feedback and Testing}
-\section{Practical Demonstration}
-
-\chapter{Conclusion}
-\section{Objectives Achieved}
-\section{Lessons Learned}
-\section{Future Improvements and Scalability Plans}
-\section{Final Considerations}
-
-\chapter{References}
-
-\chapter{Appendices}
-\section{Source Code}
-\section{Technical Documentation}
+\begin{itemize}
+    \item \textbf{Capítulo 2 – Revisão da Literatura}: apresenta os conceitos fundamentais de aprendizagem ativa e modelos de linguagem natural (LLMs), que embasam o desenvolvimento da aplicação.  
+    \item \textbf{Capítulo 3 – Metodologia}: descreve o processo de desenvolvimento do SaaS, incluindo a definição de requisitos, prototipação, escolha de tecnologias e critérios de avaliação.  
+    \item \textbf{Capítulo 4 – Desenvolvimento da Aplicação}: detalha as funcionalidades do sistema, explicando a implementação de cada módulo e os desafios enfrentados.  
+    \item \textbf{Capítulo 5 – Resultados}: analisa o desempenho da aplicação e apresenta o feedback dos usuários, avaliando o impacto da ferramenta na experiência de aprendizado.  
+    \item \textbf{Capítulo 6 – Conclusão}: discute os objetivos alcançados, as principais contribuições do trabalho e sugestões para aprimoramentos futuros.  
+\end{itemize}
 
 
+
+
+\chapter{Revisão da Literatura}
+\section{Aprendizagem Ativa}
+\section{Modelos de Linguagem (LLMs)}
+
+
+\chapter{Metodologia}
+\section{Processo de Desenvolvimento}
+\subsection{Definição de Requisitos}
+\subsection{Prototipação}
+\subsection{Desenvolvimento Iterativo}
+
+\section{Arquitetura e Tecnologias}
+\subsection{Tecnologias Usadas}
+\subsection{Visão Geral da Arquitetura}
+
+\section{Critérios de Avaliação}
+\subsection{Métricas de Performance}
+\subsection{Testes e Qualidade}
+
+\chapter{Desenvolvimento da Aplicação}
+
+\section{Melhoria da Legibilidade das Legendas}
+\subsection{O Problema da Legibilidade}
+
+
+
+
+
+\subsection{Primeira Abordagem com LLMs}
+\subsection{Implementação com Transformers}
+\subsection{Comparação e Resultados}
+
+\section{Geração de Capítulos}
+\subsection{Algoritmo e Implementação}
+\subsection{Integração com LLMs}
+
+\section{Transcrição}
+\subsection{Processamento de Áudio}
+\subsection{Sincronização e Refinamento}
+
+\section{Geração de Quizzes}
+\subsection{Extração de Conceitos-Chave}
+\subsection{Geração via LLM}
+
+\section{Bate-Papo com Vídeo}
+\subsection{Processamento de Perguntas}
+\subsection{Contextualização com Conteúdo}
+\subsection{Geração de Respostas}
+
+\section{Desafios e Soluções}
+\subsection{Obtenção dos dados do youtube}
+\subsection{Utilização de GPU's em produção}
+
+
+\chapter{Resultados}
+\section{Análise de Desempenho}
+\section{Feedback dos Usuários}
+
+\chapter{Conclusão}
+\section{Objetivos Alcançados}
+\section{Trabalhos Futuros}
+
+\chapter{Referências}
 
 
 % Bibliografia http://liinwww.ira.uka.de/bibliography/index.html um
