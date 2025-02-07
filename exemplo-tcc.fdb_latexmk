@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex exemplo-tcc"] 1738872167 "exemplo-tcc.aux" "exemplo-tcc.bbl" "exemplo-tcc" 1738872203
+["bibtex exemplo-tcc"] 1738872712 "exemplo-tcc.aux" "exemplo-tcc.bbl" "exemplo-tcc" 1738872714
   "./abnt.bst" 1711499234 28882 20d67562609d121c6cab946231e5d685 ""
   "bibliografia.bib" 1711499234 1345 4be13c36fa030147329d3c0662feda01 ""
-  "exemplo-tcc.aux" 1738872202 9175 86b5fdc8094c01c5da0ee589e47b68e7 "pdflatex"
+  "exemplo-tcc.aux" 1738872713 8652 41165533bd25f8932c005214716a1d37 "pdflatex"
   (generated)
   "exemplo-tcc.bbl"
   "exemplo-tcc.blg"
-["pdflatex"] 1738872201 "/mnt/5514aab5-7b07-4245-b7e0-66354d8514fe/projects/tcc/exemplo-tcc.tex" "exemplo-tcc.pdf" "exemplo-tcc" 1738872203
+["pdflatex"] 1738872712 "/mnt/5514aab5-7b07-4245-b7e0-66354d8514fe/projects/tcc/exemplo-tcc.tex" "exemplo-tcc.pdf" "exemplo-tcc" 1738872714
   "/etc/texmf/web2c/texmf.cnf" 1711500395 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/kevin/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1711501935 1405755 d4596ba3fba6deeb90a4e60dc5481e67 ""
-  "/mnt/5514aab5-7b07-4245-b7e0-66354d8514fe/projects/tcc/exemplo-tcc.tex" 1738872200 13985 58f4b8b697a1f8431ddd8b9a4674ad3a ""
+  "/mnt/5514aab5-7b07-4245-b7e0-66354d8514fe/projects/tcc/exemplo-tcc.tex" 1738872709 13841 ec2171256229b3e67cd8279ea3c70e6b ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
@@ -105,13 +105,13 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1711585466 4379155 98693266ff65f58d9f98aff394de12d2 ""
-  "exemplo-tcc.aux" 1738872202 9175 86b5fdc8094c01c5da0ee589e47b68e7 "pdflatex"
-  "exemplo-tcc.bbl" 1738872168 68 9bfdadc642af752354c7d979680aa3b3 "bibtex exemplo-tcc"
-  "exemplo-tcc.lof" 1738872202 456 698331341dae1688d36ea4e984e60f57 "pdflatex"
-  "exemplo-tcc.lot" 1738872202 456 698331341dae1688d36ea4e984e60f57 "pdflatex"
-  "exemplo-tcc.out" 1738872202 8467 cf75ade61eed42fbe7a0db3708c1daa8 "pdflatex"
-  "exemplo-tcc.tex" 1738872200 13985 58f4b8b697a1f8431ddd8b9a4674ad3a ""
-  "exemplo-tcc.toc" 1738872202 4790 af19d85d494a2e6393647061fac563dd "pdflatex"
+  "exemplo-tcc.aux" 1738872713 8652 41165533bd25f8932c005214716a1d37 "pdflatex"
+  "exemplo-tcc.bbl" 1738872712 68 9bfdadc642af752354c7d979680aa3b3 "bibtex exemplo-tcc"
+  "exemplo-tcc.lof" 1738872713 456 698331341dae1688d36ea4e984e60f57 "pdflatex"
+  "exemplo-tcc.lot" 1738872713 456 698331341dae1688d36ea4e984e60f57 "pdflatex"
+  "exemplo-tcc.out" 1738872713 7715 d5e965000a8a2ed510cc54acfe6e441a "pdflatex"
+  "exemplo-tcc.tex" 1738872709 13841 ec2171256229b3e67cd8279ea3c70e6b ""
+  "exemplo-tcc.toc" 1738872713 4431 f62c846e501d5eebae7b838be39265e8 "pdflatex"
   "texufpel.cls" 1711499234 29240 4fbe76d309359c16d017e5ac2b40d07d ""
   "ufpelw.pdf" 1711499234 397316 86d79b6dd8caa8a5b11eccdc457e9249 ""
   (generated)
