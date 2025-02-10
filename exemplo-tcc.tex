@@ -3,7 +3,7 @@
 \usepackage[utf8]{inputenc} % acentuacao
 \usepackage{graphicx} % para inserir figuras
 \usepackage[T1]{fontenc}
-
+\usepackage{hyperref}
 \hypersetup{
     hidelinks, % Remove coloração e caixas
     unicode=true,   %Permite acentuação no bookmark
@@ -171,15 +171,50 @@ Este trabalho está organizado da seguinte forma:
 \chapter{Desenvolvimento da Aplicação}
 
 \section{Melhoria da Legibilidade das Legendas}
+
 \subsection{O Problema da Legibilidade}
+As legendas automáticas de vídeos frequentemente apresentam problemas de formatação e segmentação, dificultando a compreensão do conteúdo. Esse problema ocorre porque as transcrições brutas costumam ser geradas como um fluxo contínuo de palavras, sem uma estrutura clara de frases e parágrafos. Além disso, quebras de linha mal posicionadas afetam a fluidez da leitura.
 
+Além de melhorar a legibilidade das legendas, tornar o conteúdo escrito mais organizado pode ser útil para quem prefere ler um vídeo em vez de assisti-lo. A leitura permite revisar rapidamente uma parte específica sem precisar voltar no vídeo, além de ajudar a decidir se vale a pena assistir aquele trecho ou se a informação já foi absorvida apenas lendo. Para algumas pessoas, ler pode ser simplesmente uma forma mais eficiente e rápida de consumir o conteúdo.
 
+Para resolver essa questão, foram testadas abordagens baseadas em modelos de linguagem natural, buscando aprimorar a estrutura das legendas sem alterar seu conteúdo original.
 
 
 
 \subsection{Primeira Abordagem com LLMs}
+Inicialmente, foi utilizado um modelo de linguagem de grande porte (LLM) para segmentar e melhorar a legibilidade do texto das legendas. A implementação foi feita utilizando a biblioteca \texttt{instructor}, que permite a validação do texto gerado através do \texttt{pydantic}, garantindo conformidade com um formato estruturado.
+
+Entretanto, essa abordagem apresentou desafios significativos:
+\begin{itemize}
+    \item \textbf{Latência elevada}: O tempo de resposta do modelo era relativamente alto, tornando a solução pouco eficiente para processar grandes quantidades de legendas.
+    \item \textbf{Alterações não desejadas no texto}: Apesar das instruções explícitas no prompt para evitar adições ou remoções de palavras, o modelo ocasionalmente incluía frases como "Aqui está o seu texto otimizado" ou alterava partes do conteúdo original.
+\end{itemize}
+
+Esses fatores tornaram a abordagem com LLMs menos viável para o problema proposto.
+
 \subsection{Implementação com Transformers}
+Diante das limitações dos LLMs, foi testada uma alternativa baseada em transformers especializados para segmentação de texto. A ferramenta \href{https://github.com/segment-any-text/wtpsplit}{wtpsplit} mostrou-se uma solução eficiente para a melhoria da legibilidade das legendas.
+
+Diferente dos LLMs, \texttt{wtpsplit} foca especificamente na segmentação de frases, apresentando vantagens como:
+\begin{itemize}
+    \item \textbf{Baixa latência}: A segmentação ocorre de maneira rápida e eficiente.
+    \item \textbf{Preservação do conteúdo original}: O modelo não adiciona ou remove palavras arbitrariamente, garantindo fidelidade ao texto original.
+    \item \textbf{Facilidade de implementação}: A integração do \texttt{wtpsplit} ao pipeline de processamento foi direta, proporcionando bons resultados sem necessidade de ajustes complexos nos prompts.
+\end{itemize}
+
 \subsection{Comparação e Resultados}
+Para avaliar o desempenho das abordagens, foram realizadas comparações entre os textos segmentados pelos LLMs e pelo \texttt{wtpsplit}. Os critérios analisados incluíram:
+\begin{itemize}
+    \item Tempo de processamento
+    \item Fidelidade ao texto original
+    \item Legibilidade subjetiva (avaliação qualitativa)
+\end{itemize}
+
+Os resultados mostraram que \texttt{wtpsplit} proporcionou uma segmentação mais precisa e eficiente, superando os LLMs em termos de velocidade e fidelidade ao conteúdo original. Assim, a implementação final optou pelo uso de \texttt{wtpsplit} como solução principal para a melhoria da legibilidade das legendas.
+
+\bibliographystyle{plain}
+\bibliography{referencias}
+
 
 \section{Geração de Capítulos}
 \subsection{Algoritmo e Implementação}
