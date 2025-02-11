@@ -153,7 +153,111 @@ Este trabalho está organizado da seguinte forma:
 
 
 \chapter{Soluções Relacionadas}
-\section{---}
+\section{youlearn}
+\section{studyfetch}
+
+
+
+\chapter{Tecnologias Utilizadas}
+Este capítulo apresenta as principais tecnologias utilizadas no desenvolvimento do projeto, que adota uma arquitetura distribuída com Next.js como principal framework full-stack, complementado por um backend adicional em Python para funcionalidades específicas.
+
+\section{Linguagens de Programação}
+
+\subsection{Python}
+Python foi utilizado como backend complementar, focado em duas funcionalidades específicas: extração de dados do YouTube e operações com o modelo Segment Anything (SaT). Esta escolha foi motivada pela disponibilidade de bibliotecas especializadas no ecossistema Python que facilitam estas operações específicas, não prontamente disponíveis no ambiente Node.js/TypeScript.
+
+\subsection{TypeScript}
+TypeScript foi a linguagem principal do projeto, utilizada tanto no frontend quanto no backend principal desenvolvido com Next.js. Sua tipagem estática trouxe maior segurança e manutenibilidade ao código, especialmente importante em uma aplicação full-stack onde a consistência entre frontend e backend é crucial.
+
+\section{Frameworks e Bibliotecas}
+
+\subsection{FastAPI}
+FastAPI foi utilizado para criar um serviço backend complementar em Python, expondo endpoints para funcionalidades específicas de extração de dados do YouTube e operações com o modelo SaT. Um diferencial importante foi a geração automática de clients TypeScript através do OpenAPI, permitindo uma integração tipo-segura e seamless com o frontend Next.js. Esta capacidade de TypeScript code generation eliminou a necessidade de definir tipos manualmente e garantiu consistência na comunicação entre os serviços.
+
+\subsection{Next.js}
+Next.js atuou como o framework full-stack principal, gerenciando tanto o frontend quanto a maior parte do backend da aplicação. Através de seus recursos de API Routes e Server Components, foi possível construir uma aplicação completa com renderização híbrida, manipulação de estado servidor/cliente e APIs RESTful. Sua arquitetura permitiu manter a maioria das operações de backend centralizadas, recorrendo ao serviço Python apenas para funcionalidades específicas.
+
+\subsection{Vercel AI SDK}
+
+O \textbf{Vercel AI SDK} desempenhou um papel fundamental na implementação de funcionalidades de inteligência artificial diretamente no \textbf{Next.js}, proporcionando uma integração eficiente com modelos de linguagem natural (LLMs).  
+
+Uma das principais vantagens dessa biblioteca é a facilidade na construção de interfaces de usuário interativas e dinâmicas para aplicações baseadas em IA. O SDK permite o \textbf{streaming de respostas}, garantindo uma experiência mais fluida para o usuário, sem a necessidade de aguardar a conclusão total do processamento. Essa abordagem melhora significativamente a experiência do usuário (\textbf{UX}), tornando as interações mais ágeis e responsivas.  
+
+Além do texto, outros elementos da interface, como \textbf{quizzes gerados dinamicamente}, também são entregues por meio de streaming. Isso significa que as perguntas e respostas dos quizzes não precisam ser completamente processadas antes de serem exibidas, pois são disponibilizadas conforme são geradas pelo modelo de IA. Todo esse processo é abstraído pelo \textbf{Vercel AI SDK}, simplificando a implementação e reduzindo a complexidade no desenvolvimento da interface.  
+
+Dessa forma, o uso do \textbf{Vercel AI SDK} permitiu a criação de uma \textbf{UI altamente responsiva e eficiente}, eliminando a necessidade de comunicação constante com o backend Python para determinadas operações de IA, otimizando o desempenho e a escalabilidade da aplicação.
+
+
+\subsection{Drizzle ORM}
+
+O \textbf{Drizzle ORM} foi utilizado como ORM principal no \textbf{Next.js}, oferecendo uma interface \textit{type-safe} para interações com o banco de dados \textbf{PostgreSQL}. Sua integração direta com \textbf{TypeScript} permitiu manter a consistência de tipos entre o banco de dados e a aplicação.
+
+Além disso, o uso do \textbf{Drizzle ORM} faz sentido dentro da arquitetura \textbf{serverless} do projeto. Diferente de ORMs mais tradicionais, que podem apresentar desafios com conexões persistentes em ambientes serverless, o \textbf{Drizzle ORM} foi projetado para ser leve e eficiente, garantindo melhor compatibilidade com essa abordagem. Dessa forma, a aplicação pode escalar dinamicamente sem sobrecarga desnecessária na comunicação com o banco de dados.
+
+
+\subsection{ShadCN}
+ShadCN forneceu componentes de UI reutilizáveis e personalizáveis, sendo utilizado exclusivamente na camada de frontend do Next.js para construir interfaces consistentes e acessíveis.
+
+\subsection{Zustand}
+Zustand gerenciou o estado global do frontend, complementando o gerenciamento de estado servidor/cliente do Next.js com uma solução leve e eficiente para estados efêmeros do cliente.
+
+\section{Modelos de Machine Learning}
+
+\subsection{API GPT}
+A API GPT foi integrada primariamente através do Next.js, utilizando o Vercel AI SDK para streaming de respostas e gerenciamento eficiente de prompts.
+
+\subsection{Segment Anything (SaT)}
+
+O modelo \textbf{Segment Anything (SaT)} foi utilizado para segmentar as legendas extraídas de vídeos do \textbf{YouTube} em parágrafos, com o objetivo de melhorar a legibilidade e organização do texto transcrito. Essa segmentação estruturada facilitou a compreensão e a análise do conteúdo, tornando a experiência do usuário mais intuitiva e agradável.
+
+Durante a fase de desenvolvimento, o modelo foi executado no backend utilizando \textbf{FastAPI}. No entanto, devido ao alto custo associado à manutenção de servidores com \textbf{GPU}, optou-se por migrar a execução para a infraestrutura \textbf{Beam Serverless GPU} em produção. Esse serviço permitiu a execução do modelo de forma escalável e sob demanda, reduzindo os custos operacionais sem comprometer significativamente o desempenho. A principal desvantagem foi uma pequena latência ocasionada pelos \textit{cold starts}, mas isso foi minimizado devido a várias técnicas disponibilizadas pelo serviço.
+
+A \textbf{Beam Serverless GPU} será explorada com mais detalhes no pŕoximo capítulo.
+
+
+
+\section{Infraestrutura e Serviços em Nuvem}
+
+\subsection{Open Next.js}
+Open Next.js otimizou o deploy da aplicação Next.js full-stack, garantindo performance adequada tanto para o frontend quanto para as API Routes do backend.
+
+\subsection{Google Cloud}
+Google Cloud Platform hospedou o backend Python complementar, enquanto também fornecia outros serviços de infraestrutura necessários para a aplicação.
+
+\subsection{Beam Serverless GPU}
+Beam Serverless GPU foi utilizado especificamente para o backend Python, fornecendo recursos de GPU para processamento de modelos de machine learning mais pesados.
+
+\subsection{Supabase}
+Supabase forneceu o banco de dados PostgreSQL e serviços de autenticação, sendo acessado principalmente através do backend Next.js via Drizzle ORM.
+
+\subsection{Sentry}
+Sentry monitorou tanto o ambiente Next.js quanto o serviço Python, fornecendo visibilidade completa sobre erros e performance em toda a aplicação.
+
+\section{Banco de Dados}
+
+\subsection{PostgreSQL (via Supabase)}
+PostgreSQL foi utilizado como banco de dados principal, sendo acessado principalmente através do Next.js com Drizzle ORM, e ocasionalmente pelo backend Python quando necessário.
+
+\section{Ferramentas de Desenvolvimento}
+
+\subsection{Visual Studio Code (VS Code)}
+VS Code foi o IDE principal, oferecendo excelente suporte tanto para o desenvolvimento em Next.js/TypeScript quanto para Python.
+
+\subsection{Cursor}
+Cursor complementou o ambiente de desenvolvimento com recursos de IA para autocomplete e refatoração, sendo especialmente útil no desenvolvimento full-stack.
+
+\subsection{v0.dev}
+v0.dev auxiliou na prototipagem rápida de componentes frontend para o Next.js, acelerando o desenvolvimento da interface do usuário.
+
+\subsection{OpenAPI TypeScript Code Generator}
+A geração automática de código TypeScript a partir das especificações OpenAPI do FastAPI foi uma ferramenta crucial no desenvolvimento, criando automaticamente tipos e clients para todas as APIs Python. Isto garantiu uma integração tipo-segura entre o frontend Next.js e o backend Python, reduzindo erros de integração e melhorando a experiência de desenvolvimento.
+
+
+
+
+
+
+
 
 
 
@@ -163,8 +267,8 @@ Este trabalho está organizado da seguinte forma:
 \subsection{Prototipação}
 \subsection{Desenvolvimento Iterativo}
 
-\section{Arquitetura e Tecnologias}
-\subsection{Tecnologias Usadas}
+\section{Arquitetura }
+
 \subsection{Visão Geral da Arquitetura}
 
 
@@ -202,6 +306,15 @@ Diferente dos LLMs, \texttt{wtpsplit} foca especificamente na segmentação de f
     \item \textbf{Facilidade de implementação}: A integração do \texttt{wtpsplit} ao pipeline de processamento foi direta, proporcionando bons resultados sem necessidade de ajustes complexos nos prompts.
 \end{itemize}
 
+
+
+
+% In your document where you want the image:
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{exemplo-slides/graphics/images/pre-improved-readability.png}
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{exemplo-slides/graphics/images/after-improved-readability.png}
+
+
+
 \subsection{Comparação e Resultados}
 Para avaliar o desempenho das abordagens, foram realizadas comparações entre os textos segmentados pelos LLMs e pelo \texttt{wtpsplit}. Os critérios analisados incluíram:
 \begin{itemize}
@@ -212,25 +325,105 @@ Para avaliar o desempenho das abordagens, foram realizadas comparações entre o
 
 Os resultados mostraram que \texttt{wtpsplit} proporcionou uma segmentação mais precisa e eficiente, superando os LLMs em termos de velocidade e fidelidade ao conteúdo original. Assim, a implementação final optou pelo uso de \texttt{wtpsplit} como solução principal para a melhoria da legibilidade das legendas.
 
-\bibliographystyle{plain}
-\bibliography{referencias}
 
 
-\section{Geração de Capítulos}
-\subsection{Algoritmo e Implementação}
-\subsection{Integração com LLMs}
+
+\section{Gera\c{c}\~{a}o de Cap\'{i}tulos}
+
+A gera\c{c}\~{a}o autom\'atica de cap\'{i}tulos em v\'{i}deos do YouTube \'{e} um processo essencial para melhorar a navegabilidade e compreens\~{a}o do conte\'udo. Para isso, adotamos um m\'etodo baseado na estrutura\c{c}\~{a}o do texto e na identifica\c{c}\~{a}o de mudan\c{c}as de t\'opico atrav\'es de um modelo de linguagem de grande escala (LLM).
+
+\subsection{Algoritmo e Implementa\c{c}\~{a}o}
+
+O algoritmo segue um fluxo de processamento em tr\^{e}s etapas principais:
+
+1. \textbf{Estrutura\c{c}\~{a}o do texto:} O conte\'udo transcrito do v\'{i}deo \'{e} segmentado em par\'{a}grafos coerentes, respeitando pausas naturais e mudan\c{c}as de contexto no discurso. Essa segmenta\c{c}\~{a}o melhora a compreens\~{a}o e a an\'{a}lise subsequente do texto.
+
+2. \textbf{Numera\c{c}\~{a}o dos par\'{a}grafos:} Cada par\'{a}grafo recebe um identificador num\'erico no in\'{i}cio, o que permite um referenciamento direto na etapa seguinte.
+
+3. \textbf{Identifica\c{c}\~{a}o de mudan\c{c}as de t\'opico:} Utilizamos um LLM para analisar o texto e determinar os par\'{a}grafos que marcam a transi\c{c}\~{a}o entre t\'opicos distintos. O modelo retorna a lista de n\'{u}meros dos par\'{a}grafos que representam pontos de mudan\c{c}a relevantes no conte\'udo.
+
+\subsection{Integra\c{c}\~{a}o com LLMs}
+
+Para a identifica\c{c}\~{a}o das transi\c{c}\~{o}es de t\'opico, utilizamos function calling para interagir com o LLM. Essa abordagem permite enviar a transcri\c{c}\~{a}o segmentada e numerada, solicitando ao modelo que indique os pontos de mudan\c{c}a mais relevantes. A fun\c{c}\~{a}o chamada retorna uma lista de par\'{a}grafos que representam as mudan\c{c}as de t\'opico, possibilitando a gera\c{c}\~{a}o autom\'atica de cap\'{i}tulos estruturados.
+
+Previamente, foi tentado um m\'etodo em que a function calling solicitava apenas o nome dos t\'opicos de transi\c{c}\~{a}o e seu tempo correspondente. No entanto, observou-se um aumento significativo nas alucina\c{c}\~{o}es do modelo. Ao utilizar a numera\c{c}\~{a}o dos par\'{a}grafos, conseguimos reduzir esse problema, pois conhecendo a posi\c{c}\~{a}o do par\'{a}grafo na transcri\c{c}\~{a}o, podemos determinar com maior precis\~{a}o a sua posi\c{c}\~{a}o temporal no v\'{i}deo.
+
+Essa abordagem garante uma segmenta\c{c}\~{a}o eficiente e adapt\'avel, permitindo uma melhor compreens\~{a}o do conte\'udo dos v\'{i}deos e melhorando a experi\^{e}ncia do usu\'ario ao consumir informa\c{c}\~{o}es em formato de v\'{i}deo.
+
+
+
+
 
 \section{Transcrição}
-\subsection{Processamento de Áudio}
-\subsection{Sincronização e Refinamento}
+
+A transcrição precisa de vídeos do YouTube é essencial para gerar textos mais confiáveis do que as legendas automáticas, que apresentam qualidade inferior especialmente para línguas que não são o inglês.
+
+\subsection{Processo Inicial com Whisper}
+
+No fluxo original utilizando o Whisper, o processo consistia em:
+
+1. \textbf{Download do áudio} (comum a ambos os métodos):
+   - Uso da biblioteca \texttt{pytubefix} para download
+   - Progresso reportado ao usuário via SSE (Server-Sent Events)
+   - Arquivo de áudio com qualidade balanceada entre precisão e velocidade
+
+2. \textbf{Pré-processamento específico para Whisper}:
+   - Divisão do áudio em segmentos de 10 minutos
+   - Cortes preferencialmente em momentos de silêncio
+   - Envio paralelo dos segmentos para transcrição
+   - Necessidade decorrente das limitações do Whisper com arquivos longos
+
+\subsection{Migração para o Deepgram}
+
+Com a adoção do Deepgram, o fluxo foi otimizado:
+
+1. \textbf{Download do áudio mantido}:
+   - Mesmo processo via \texttt{pytubefix} com feedback via SSE
+   - Eliminação da etapa de divisão do áudio
+
+2. \textbf{Transcrição direta}:
+   - Envio do arquivo de áudio completo
+   - Processamento único sem necessidade de paralelização
+   - Interface exibe estimativa de tempo restante
+   - Capacidade nativa de lidar com longas durações
+
+\subsection{Comparativo Técnico}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Característica} & \textbf{Whisper} & \textbf{Deepgram} \\ \hline
+Requer divisão do áudio & Sim & Não \\ \hline
+Processamento paralelo & Necessário & Opcional \\ \hline
+Feedback em tempo real & Apenas no download & Download + estimativa de transcrição \\ \hline
+Limite de duração & 10min/segmento & Até 4h/arquivo \\ \hline
+\end{tabular}
+\caption{Diferenças na abordagem de transcrição}
+\label{tab:abordagem}
+\end{table}
+
+
+
 
 \section{Geração de Quizzes}
 \subsection{Extração de Conceitos-Chave}
 \subsection{Geração via LLM}
 
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{exemplo-slides/graphics/images/true or false.png}
+
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{exemplo-slides/graphics/images/q_a.png}
+
 \section{Bate-Papo com Vídeo}
 \subsection{Processamento de Perguntas}
 \subsection{Contextualização com Conteúdo}
+Durante a interação com o sistema, foi implementada uma funcionalidade que permite ao usuário selecionar capítulos específicos do vídeo que são relevantes para sua pergunta. Esta característica é especialmente importante considerando que, frequentemente, o conteúdo completo do vídeo pode exceder os limites da janela de contexto do modelo de linguagem.
+
+Para garantir uma experiência transparente, o sistema exibe notificações em formato toast quando há risco de exceder a janela de contexto. Embora seja possível selecionar a legenda completa do vídeo, o usuário é alertado quando parte do conteúdo precisa ser truncada devido às limitações técnicas.
+
+A geração de capítulos tornou-se um elemento fundamental neste processo, pois permite que o usuário faça uma seleção precisa do conteúdo pertinente à sua questão, otimizando assim a qualidade das respostas e o uso do contexto disponível.
+
+Em perspectivas futuras, considera-se desenvolver uma abordagem mais agêntica, onde a própria LLM seria responsável por identificar e selecionar os capítulos relevantes para cada pergunta específica. No entanto, nesta primeira implementação, optou-se por manter o controle da seleção nas mãos do usuário.
 \subsection{Geração de Respostas}
 
 \section{Desafios e Soluções}
