@@ -6,11 +6,15 @@
 \usepackage{hyperref}
 \usepackage{subcaption}
 \usepackage{float}
+\usepackage{microtype}
+\setlength{\emergencystretch}{3em}
 \hypersetup{
     hidelinks, % Remove coloração e caixas
     unicode=true,   %Permite acentuação no bookmark
     linktoc=all %Habilita link no nome e página do sumário
 }
+
+
 
 \unidade{Centro de Desenvolvimento Tecnológico}
 \curso{Engenharia de Computação}
@@ -21,7 +25,7 @@
 \cursoeng{Computer Science}
 
 
-\title{VideoLearnAI: LLM Powered Web Application para aprendizagem ativa com vídeos do Youtube}
+\title{VideoLearnAI: LLM10 Powered Web Application para aprendizagem ativa com vídeos do Youtube}
 
 \author{Weitgenant}{Kevin Castro}
 \advisor[Prof.~Dr.]{Primo}{Tiago}
@@ -40,6 +44,17 @@
 \keywordeng{keyword-two;}
 \keywordeng{keyword-three;}
 \keywordeng{keyword-four.}
+
+% Adicionar no preâmbulo, antes de \begin{document}
+\tolerance=1500
+\pretolerance=250
+\hbadness=1500
+
+% Ou, para ignorar completamente os avisos de underfull/overfull hbox
+% \hfuzz=\maxdimen
+% \vfuzz=\maxdimen
+% \hbadness=10000
+% \vbadness=10000
 
 \begin{document}
 
@@ -491,7 +506,7 @@ Diante das limitações arquiteturais dos LLMs, foi adotado o SAT (\textit{Segme
   \centering
   \includegraphics[width=\textwidth,height=0.45\textheight,keepaspectratio]{exemplo-slides/graphics/images/watch history.png}
   \caption{Logs de execução no Beam Serverless GPU demonstrando o tempo de cold start (18s 573ms) na primeira requisição e tempos de resposta reduzidos (aproximadamente 50-100ms) nas requisições subsequentes}
-  \label{fig:Average_encryption_throughput}
+  \label{fig:beam_logs_cold_start}
 \end{figure}
 
 
@@ -548,7 +563,7 @@ Em testes realizados em ambiente de produção, observou-se que o primeiro proce
   \centering
   \includegraphics[width=\textwidth,height=0.45\textheight,keepaspectratio]{exemplo-slides/graphics/images/logs-beam.png}
   \caption{Logs de execução no Beam Serverless GPU demonstrando o tempo de cold start (18s 573ms) na primeira requisição e tempos de resposta reduzidos (aproximadamente 50-100ms) nas requisições subsequentes}
-  \label{fig:Average_encryption_throughput}
+  \label{fig:beam_logs_execution}
 \end{figure}
 
 
@@ -599,7 +614,7 @@ Essa abordagem garante uma segmenta\c{c}\~{a}o eficiente e adapt\'avel, permitin
   \centering
   \includegraphics[width=\textwidth,height=0.45\textheight,keepaspectratio]{exemplo-slides/graphics/images/generate-chapters.png}
   \caption{Antes da geração de capítulos. Aviso de que vídeo não possui capítulos e botão para geração}
-  \label{fig:Average_encryption_throughput}
+  \label{fig:generate_chapters_before}
 \end{figure}
 
 
@@ -607,7 +622,7 @@ Essa abordagem garante uma segmenta\c{c}\~{a}o eficiente e adapt\'avel, permitin
   \centering
   \includegraphics[width=\textwidth,height=0.45\textheight,keepaspectratio]{exemplo-slides/graphics/images/after-chapter-generation.png}
   \caption{Após geração de capítulos.}
-  \label{fig:Average_encryption_throughput}
+  \label{fig:generate_chapters_after}
 \end{figure}
 
 
@@ -621,8 +636,8 @@ Essa abordagem garante uma segmenta\c{c}\~{a}o eficiente e adapt\'avel, permitin
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth,height=0.45\textheight,keepaspectratio]{exemplo-slides/graphics/images/table of contents.png}
-  \caption{Logs de execução no Beam Serverless GPU demonstrando o tempo de cold start (18s 573ms) na primeira requisição e tempos de resposta reduzidos (aproximadamente 50-100ms) nas requisições subsequentes}
-  \label{fig:Average_encryption_throughput}
+  \caption{Tabela de conteúdos gerada automaticamente a partir dos capítulos identificados}
+  \label{fig:table_of_contents}
 \end{figure}
 
 
@@ -633,8 +648,8 @@ Essa abordagem garante uma segmenta\c{c}\~{a}o eficiente e adapt\'avel, permitin
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth,height=0.45\textheight,keepaspectratio]{exemplo-slides/graphics/images/watch history.png}
-  \caption{Logs de execução no Beam Serverless GPU demonstrando o tempo de cold start (18s 573ms) na primeira requisição e tempos de resposta reduzidos (aproximadamente 50-100ms) nas requisições subsequentes}
-  \label{fig:Average_encryption_throughput}
+  \caption{Histórico de visualização mostrando os últimos vídeos assistidos pelo usuário}
+  \label{fig:watch_history}
 \end{figure}
 
 

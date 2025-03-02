@@ -61,7 +61,7 @@
 \contentsline {section}{\numberline {5.2}Melhoria da Legibilidade das Legendas}{33}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}O Problema da Legibilidade}{33}{subsection.5.2.1}%
 \contentsline {subsection}{\numberline {5.2.2}Primeira Abordagem com LLMs}{34}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Implementação com SaT (Segment Anything Text)}{35}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.3}Implementação com SaT (Segment Anything Text)}{34}{subsection.5.2.3}%
 \contentsline {subsection}{\numberline {5.2.4}Interface e Experiência do Usuário}{36}{subsection.5.2.4}%
 \contentsline {subsection}{\numberline {5.2.5}Desafios de Implantação em Produção}{37}{subsection.5.2.5}%
 \contentsline {section}{\numberline {5.3}Geração de Capítulos}{38}{section.5.3}%
