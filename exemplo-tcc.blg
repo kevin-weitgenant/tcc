@@ -2,47 +2,45 @@ This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: exemplo-tcc.aux
 The style file: abnt.bst
-I found no \citation commands---while reading file exemplo-tcc.aux
 Database file #1: bibliografia.bib
-You've used 0 entries,
+You've used 26 entries,
             2376 wiz_defined-function locations,
-            580 strings with 4248 characters,
-and the built_in function-call counts, 11 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 2
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
-int.to.chr$ -- 0
+            706 strings with 10367 characters,
+and the built_in function-call counts, 32711 in all, are:
+= -- 2376
+> -- 593
+< -- 1067
++ -- 2149
+- -- 105
+* -- 2821
+:= -- 2810
+add.period$ -- 86
+call.type$ -- 26
+change.case$ -- 876
+chr.to.int$ -- 155
+cite$ -- 26
+duplicate$ -- 4012
+empty$ -- 1785
+format.name$ -- 1198
+if$ -- 5451
+int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+newline$ -- 55
+num.names$ -- 130
+pop$ -- 901
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 26
 quote$ -- 0
-skip$ -- 1
+skip$ -- 1404
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 776
+swap$ -- 3564
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 130
 warning$ -- 0
-while$ -- 0
+while$ -- 159
 width$ -- 0
-write$ -- 2
-(There was 1 error message)
+write$ -- 28

@@ -1,3 +1,170 @@
 \begin{thebibliography}{\hspace{\parindent}}
 
+\bibitem[Barbero; Banino; Kapturowski; Kumaran; Ara{\'u}jo; Vitvitskyi;
+  Pascanu; Veli{\v{c}}kovi{\'c}(2024)Barbero; Banino; Kapturowski; Kumaran;
+  Ara{\'u}jo; Vitvitskyi; Pascanu;
+  Veli{\v{c}}kovi{\'c}]{barbero2024transformers} BARBERO, F.; BANINO, A.;
+  KAPTUROWSKI, S.; KUMARAN, D.; ARA{\'U}JO, J.~G.; VITVITSKYI, A.; PASCANU, R.;
+  VELI{\v{C}}KOVI{\'C}, P\@. Transformers need glasses! Information
+  over-squashing in language tasks. \textbf{arXiv preprint arXiv:2406.04267},
+  [S.l.], 2024.
+
+\bibitem[Beltagy; Peters; Cohan(2020)Beltagy; Peters;
+  Cohan]{beltagy2020longformer} BELTAGY, I.; PETERS, M.~E.; COHAN, A\@.
+  Longformer: The long-document transformer. In: XIV PREPRINT ARXIV:2004.05150,
+  2020. \textbf{Anais{\ldots}} [S.l.:~s.n.], 2020.
+
+\bibitem[Brown; Mann; Ryder; Subbiah; Kaplan; Dhariwal; Neelakantan; Shyam;
+  Sastry; Askell \MakeLowercase{et~al.}(2020)Brown; Mann; Ryder; Subbiah;
+  Kaplan; Dhariwal; Neelakantan; Shyam; Sastry; Askell
+  \MakeLowercase{et~al.}]{brown2020language} BROWN, T.; MANN, B.; RYDER, N.;
+  SUBBIAH, M.; KAPLAN, J.~D.; DHARIWAL, P.; NEELAKANTAN, A.; SHYAM, P.; SASTRY,
+  G.; ASKELL, A. \MakeLowercase{et~al.} Language models are few-shot learners.
+  \textbf{Advances in neural information processing systems}, [S.l.], v.33,
+  p.1877--1901, 2020.
+
+\bibitem[Devlin; Chang; Lee; Toutanova(2019)Devlin; Chang; Lee;
+  Toutanova]{devlin2019bert} DEVLIN, J.; CHANG, M.-W.; LEE, K.; TOUTANOVA, K\@.
+  BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding. In: CONFERENCE OF THE NORTH AMERICAN CHAPTER OF THE
+  ASSOCIATION FOR COMPUTATIONAL LINGUISTICS: HUMAN LANGUAGE TECHNOLOGIES,
+  2019., 2019. \textbf{Proceedings{\ldots}} [S.l.:~s.n.], 2019. p.4171--4186.
+
+\bibitem[Frohmann; Sterner; Vulic; Minixhofer; Schedl(2024)Frohmann; Sterner;
+  Vulic; Minixhofer; Schedl]{frohmann2024segment} FROHMANN, M.; STERNER, I.;
+  VULIC, I.; MINIXHOFER, B.; SCHEDL, M\@. Segment Any Text: A Universal
+  Approach for Robust, Efficient and Adaptable Sentence Segmentation.
+  \textbf{arXiv preprint arXiv:2406.16678}, [S.l.], 2024.
+
+\bibitem[Gao; Xiong; Gao; Jiang; Shen; Ren; Han(2023)Gao; Xiong; Gao; Jiang;
+  Shen; Ren; Han]{gao2023retrieval} GAO, Y.; XIONG, Y.; GAO, X.; JIANG, K.;
+  SHEN, J.; REN, X.; HAN, J\@. Retrieval-augmented generation for large
+  language models: A survey. \textbf{arXiv preprint arXiv:2312.10997}, [S.l.],
+  2023.
+
+\bibitem[Guhr; Schumann; Bahrmann; B\"{o}hme(2021)Guhr; Schumann; Bahrmann;
+  B\"{o}hme]{guhr-EtAl:2021:fullstop} GUHR, O.; SCHUMANN, A.-K.; BAHRMANN, F.;
+  B\"{o}HME, H.~J\@. FullStop: Multilingual Deep Models for Punctuation
+  Prediction. In: SWISS TEXT ANALYTICS CONFERENCE 2021, 2021, Winterthur,
+  Switzerland. \textbf{Proceedings{\ldots}} CEUR Workshop Proceedings, 2021.
+
+\bibitem[Kaplan; Mccandlish; Henighan; Brown; Chess; Child; Gray; Radford; Wu;
+  Amodei(2020)Kaplan; Mccandlish; Henighan; Brown; Chess; Child; Gray; Radford;
+  Wu; Amodei]{kaplan2020scaling} KAPLAN, J.; MCCANDLISH, S.; HENIGHAN, T.;
+  BROWN, T.~B.; CHESS, B.; CHILD, R.; GRAY, S.; RADFORD, A.; WU, J.; AMODEI,
+  D\@. Scaling laws for neural language models. \textbf{arXiv preprint
+  arXiv:2001.08361}, [S.l.], 2020.
+
+\bibitem[Kasneci; Sessler; Küchemann; Bannert; Dementieva; Fischer; Gasser;
+  Groh; Günnemann; Hüllermeier \MakeLowercase{et~al.}(2023)Kasneci; Sessler;
+  Küchemann; Bannert; Dementieva; Fischer; Gasser; Groh; Günnemann;
+  Hüllermeier \MakeLowercase{et~al.}]{kasneci2023chatgpt} KASNECI, E.;
+  SESSLER, K.; KüCHEMANN, S.; BANNERT, M.; DEMENTIEVA, D.; FISCHER, F.;
+  GASSER, U.; GROH, G.; GüNNEMANN, S.; HüLLERMEIER, E. \MakeLowercase{et~al.}
+  ChatGPT for good? On opportunities and challenges of large language models
+  for education. \textbf{Learning and Individual Differences}, [S.l.], v.103,
+  p.102274, 2023.
+
+\bibitem[Kojima; Gu; Reid; Matsuo; Iwasawa(2022)Kojima; Gu; Reid; Matsuo;
+  Iwasawa]{kojima2022large} KOJIMA, T.; GU, S.~S.; REID, M.; MATSUO, Y.;
+  IWASAWA, Y\@. Large language models are zero-shot reasoners. \textbf{Advances
+  in Neural Information Processing Systems}, [S.l.], v.35, p.22199--22213,
+  2022.
+
+\bibitem[Lewis; Perez; Piktus; Petroni; Karpukhin; Goyal; Küttler; Lewis; Yih;
+  Rocktäschel \MakeLowercase{et~al.}(2020)Lewis; Perez; Piktus; Petroni;
+  Karpukhin; Goyal; Küttler; Lewis; Yih; Rocktäschel
+  \MakeLowercase{et~al.}]{lewis2020retrieval} LEWIS, P.; PEREZ, E.; PIKTUS, A.;
+  PETRONI, F.; KARPUKHIN, V.; GOYAL, N.; KüTTLER, H.; LEWIS, M.; YIH, W.-t.;
+  ROCKTäSCHEL, T. \MakeLowercase{et~al.} Retrieval-augmented generation for
+  knowledge-intensive nlp tasks. \textbf{Advances in Neural Information
+  Processing Systems}, [S.l.], v.33, p.9459--9474, 2020.
+
+\bibitem[Liu; Bosselut; Srinivasan; Choi; Hajishirzi; Khashabi(2023)Liu;
+  Bosselut; Srinivasan; Choi; Hajishirzi; Khashabi]{liu2023lost} LIU, N.~F.;
+  BOSSELUT, A.; SRINIVASAN, D.; CHOI, Y.; HAJISHIRZI, H.; KHASHABI, D\@. Lost
+  in the middle: How language models use long contexts. \textbf{arXiv preprint
+  arXiv:2307.03172}, [S.l.], 2023.
+
+\bibitem[Liu; Yuan; Fu; Jiang; Hayashi; Neubig(2023)Liu; Yuan; Fu; Jiang;
+  Hayashi; Neubig]{liu2023pre} LIU, P.; YUAN, W.; FU, J.; JIANG, Z.; HAYASHI,
+  H.; NEUBIG, G\@. Pre-train, prompt, and predict: A systematic survey of
+  prompting methods in natural language processing. \textbf{ACM Computing
+  Surveys}, [S.l.], v.55, n.9, p.1--35, 2023.
+
+\bibitem[Liu; Zhang; Hou; Mian; Wang; Zhang; Tang(2021)Liu; Zhang; Hou; Mian;
+  Wang; Zhang; Tang]{liu2021self} LIU, X.; ZHANG, F.; HOU, Z.; MIAN, L.; WANG,
+  Z.; ZHANG, J.; TANG, J\@. Self-supervised learning: Generative or
+  contrastive. \textbf{IEEE Transactions on Knowledge and Data Engineering},
+  [S.l.], v.35, n.1, p.677--694, 2021.
+
+\bibitem[Lu; Bartolo; Moore; Riedel; Stenetorp(2022)Lu; Bartolo; Moore; Riedel;
+  Stenetorp]{lu2022fantastically} LU, Y.; BARTOLO, M.; MOORE, A.; RIEDEL, S.;
+  STENETORP, P\@. Fantastically ordered prompts and where to find them:
+  Overcoming few-shot prompt order sensitivity. \textbf{arXiv preprint
+  arXiv:2104.08786}, [S.l.], 2022.
+
+\bibitem[{OpenAI}(2023a){OpenAI}]{openai2023gpt4} {OpenAI}. GPT-4 Technical
+  Report. \textbf{arXiv preprint arXiv:2303.08774}, [S.l.], 2023.
+
+\bibitem[{OpenAI}(2023b){OpenAI}]{openai2023pricing} {OpenAI}.
+  \textbf{Pricing}. Accessed: 2023-12-01, \url{https://openai.com/pricing}.
+
+\bibitem[Radford; Wu; Child; Luan; Amodei; Sutskever(2019)Radford; Wu; Child;
+  Luan; Amodei; Sutskever]{radford2019language} RADFORD, A.; WU, J.; CHILD, R.;
+  LUAN, D.; AMODEI, D.; SUTSKEVER, I\@. Language models are unsupervised
+  multitask learners. \textbf{OpenAI blog}, [S.l.], v.1, n.8, p.9, 2019.
+
+\bibitem[Raffel; Shazeer; Roberts; Lee; Narang; Matena; Zhou; Li;
+  Liu(2020)Raffel; Shazeer; Roberts; Lee; Narang; Matena; Zhou; Li;
+  Liu]{raffel2020exploring} RAFFEL, C.; SHAZEER, N.; ROBERTS, A.; LEE, K.;
+  NARANG, S.; MATENA, M.; ZHOU, Y.; LI, W.; LIU, P.~J\@. Exploring the limits
+  of transfer learning with a unified text-to-text transformer. \textbf{Journal
+  of Machine Learning Research}, [S.l.], v.21, p.1--67, 2020.
+
+\bibitem[Sennrich; Haddow; Birch(2016)Sennrich; Haddow;
+  Birch]{sennrich2016neural} SENNRICH, R.; HADDOW, B.; BIRCH, A\@. Neural
+  machine translation of rare words with subword units. In: ANNUAL MEETING OF
+  THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS, 54., 2016.
+  \textbf{Proceedings{\ldots}} [S.l.:~s.n.], 2016. p.1715--1725.
+
+\bibitem[Vaswani; Shazeer; Parmar; Uszkoreit; Jones; Gomez; Kaiser;
+  Polosukhin(2017)Vaswani; Shazeer; Parmar; Uszkoreit; Jones; Gomez; Kaiser;
+  Polosukhin]{vaswani2017attention} VASWANI, A.; SHAZEER, N.; PARMAR, N.;
+  USZKOREIT, J.; JONES, L.; GOMEZ, A.~N.; KAISER, {\L}.; POLOSUKHIN, I\@.
+  Attention is all you need. In: ADVANCES IN NEURAL INFORMATION PROCESSING
+  SYSTEMS, 2017. \textbf{Anais{\ldots}} [S.l.:~s.n.], 2017. p.5998--6008.
+
+\bibitem[Wang; Wei; Schuurmans; Le; Chi; Zhou(2023)Wang; Wei; Schuurmans; Le;
+  Chi; Zhou]{wang2023self} WANG, X.; WEI, J.; SCHUURMANS, D.; LE, Q.; CHI, E.;
+  ZHOU, D\@. Self-consistency improves chain of thought reasoning in language
+  models. \textbf{arXiv preprint arXiv:2203.11171}, [S.l.], 2023.
+
+\bibitem[Wei; Wang; Schuurmans; Bosma; Ichter; Xia; Chi; Le; Zhou(2022)Wei;
+  Wang; Schuurmans; Bosma; Ichter; Xia; Chi; Le; Zhou]{wei2022chain} WEI, J.;
+  WANG, X.; SCHUURMANS, D.; BOSMA, M.; ICHTER, B.; XIA, F.; CHI, E.; LE, Q.;
+  ZHOU, D\@. Chain of thought prompting elicits reasoning in large language
+  models. \textbf{Advances in Neural Information Processing Systems}, [S.l.],
+  v.35, p.24824--24837, 2022.
+
+\bibitem[White; Fu; Hays; Sandborn; Olea; Gilbert; Elnashar; Spencer-smith;
+  Schmidt(2023)White; Fu; Hays; Sandborn; Olea; Gilbert; Elnashar;
+  Spencer-smith; Schmidt]{white2023prompt} WHITE, J.; FU, Q.; HAYS, S.;
+  SANDBORN, M.; OLEA, C.; GILBERT, H.; ELNASHAR, A.; SPENCER-SMITH, J.;
+  SCHMIDT, D.~C\@. Prompt engineering for large language models: A survey.
+  \textbf{arXiv preprint arXiv:2307.10169}, [S.l.], 2023.
+
+\bibitem[Xu; Sarthi; Agarwal; Gupta; Saxena; Aralikatte; Batra; Parikh; Misra;
+  Awadallah(2023)Xu; Sarthi; Agarwal; Gupta; Saxena; Aralikatte; Batra; Parikh;
+  Misra; Awadallah]{xu2023retrieval} XU, Y.; SARTHI, S.; AGARWAL, A.; GUPTA,
+  A.; SAXENA, A.; ARALIKATTE, R.; BATRA, D.; PARIKH, D.; MISRA, I.; AWADALLAH,
+  A\@. Retrieval-augmented generation for knowledge-intensive nlp tasks.
+  \textbf{arXiv preprint arXiv:2305.14002}, [S.l.], 2023.
+
+\bibitem[Yao; Zhao; Yu; Du; Shafran; Narasimhan; Cao(2023)Yao; Zhao; Yu; Du;
+  Shafran; Narasimhan; Cao]{yao2023react} YAO, S.; ZHAO, J.; YU, D.; DU, N.;
+  SHAFRAN, I.; NARASIMHAN, K.; CAO, Y\@. ReAct: Synergizing reasoning and
+  acting in language models. \textbf{arXiv preprint arXiv:2210.03629}, [S.l.],
+  2023.
+
 \end{thebibliography}

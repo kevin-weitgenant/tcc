@@ -13,9 +13,16 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figura\ 1}{\ignorespaces Logs de execução no Beam Serverless GPU demonstrando o tempo de cold start (18s 573ms) na primeira requisição e tempos de resposta reduzidos (aproximadamente 50-100ms) nas requisições subsequentes\relax }}{36}{figure.caption.1}%
+\contentsline {figure}{\numberline {Figura\ 2}{\ignorespaces Comparação antes e após a segmentação de parágrafos.\relax }}{37}{figure.caption.2}%
+\contentsline {figure}{\numberline {Figura\ 3}{\ignorespaces Logs de execução no Beam Serverless GPU demonstrando o tempo de cold start (18s 573ms) na primeira requisição e tempos de resposta reduzidos (aproximadamente 50-100ms) nas requisições subsequentes\relax }}{38}{figure.caption.3}%
+\contentsline {figure}{\numberline {Figura\ 4}{\ignorespaces Antes da geração de capítulos. Aviso de que vídeo não possui capítulos e botão para geração\relax }}{40}{figure.caption.4}%
+\contentsline {figure}{\numberline {Figura\ 5}{\ignorespaces Após geração de capítulos.\relax }}{40}{figure.caption.5}%
+\contentsline {figure}{\numberline {Figura\ 6}{\ignorespaces Logs de execução no Beam Serverless GPU demonstrando o tempo de cold start (18s 573ms) na primeira requisição e tempos de resposta reduzidos (aproximadamente 50-100ms) nas requisições subsequentes\relax }}{41}{figure.caption.6}%
+\contentsline {figure}{\numberline {Figura\ 7}{\ignorespaces Logs de execução no Beam Serverless GPU demonstrando o tempo de cold start (18s 573ms) na primeira requisição e tempos de resposta reduzidos (aproximadamente 50-100ms) nas requisições subsequentes\relax }}{41}{figure.caption.7}%
+\contentsline {figure}{\numberline {Figura\ 8}{\ignorespaces \relax }}{43}{figure.caption.8}%
+\contentsline {figure}{\numberline {Figura\ 9}{\ignorespaces Exemplo de interface para perguntas e respostas.\relax }}{44}{figure.caption.9}%
+\contentsline {figure}{\numberline {Figura\ 10}{\ignorespaces Exemplo de interface para quest~oes de verdadeiro ou falso.\relax }}{45}{figure.caption.10}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
