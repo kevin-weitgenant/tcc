@@ -1,0 +1,48 @@
+// Definição do schema para a função de identificação de tópicos
+const topicSchema = {
+  name: "identifyTopics",
+  description: "Identify main topics in the text and where they start",
+  parameters: {
+    type: "object",
+    properties: {
+      topics: {
+        type: "array",
+        items: {
+          type: "object",
+          properties: {
+            title: {
+              type: "string",
+              description: "The title of the topic"
+            },
+            paragraphNumber: {
+              type: "number",
+              description: "The paragraph number where this topic starts"
+            }
+          },
+          required: ["title", "paragraphNumber"]
+        }
+      }
+    },
+    required: ["topics"]
+  }
+}; 
+
+// Transformação dos tópicos em capítulos sincronizados
+function transformTopicsToChapterList(topics, timingMap) {
+  // Ordenar tópicos pelo número do parágrafo
+  const sortedTopics = [...topics].sort((a, b) => a.paragraphNumber - b.paragraphNumber);
+  
+  // Criar lista de capítulos com timestamps
+  return sortedTopics.map((topic, index) => {
+    const startTime = timingMap.get(topic.paragraphNumber) || 0;
+    const nextTopic = sortedTopics[index + 1];
+    const endTime = nextTopic ? timingMap.get(nextTopic.paragraphNumber) : Infinity;
+    
+    return {
+      title: topic.title,
+      startTime,
+      endTime,
+      active: false
+    };
+  });
+} 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.26)  2 MAR 2025 18:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.26)  12 MAR 2025 17:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -326,49 +326,68 @@ LaTeX Info: Redefining \lslig on input line 897.
 Package microtype Info: Loading configuration file microtype.cfg.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2021/12/10 v3.0b microtype main configuration file (RS)
-))
-Package hyperref Info: Option `unicode' set `true' on input line 15.
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen169
+\ar@mcellbox=\box54
+\extrarowheight=\dimen170
+\NC@list=\toks24
+\extratabsurround=\skip59
+\backup@length=\skip60
+\ar@cellbox=\box55
+)
+\TX@col@width=\dimen171
+\TX@old@table=\dimen172
+\TX@old@col=\dimen173
+\TX@target=\dimen174
+\TX@delta=\dimen175
+\TX@cols=\count292
+\TX@ftn=\toks25
+)
+Package hyperref Info: Option `unicode' set `true' on input line 16.
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count292
-\l__pdf_internal_box=\box54
+\l__color_backend_stack_int=\count293
+\l__pdf_internal_box=\box56
 ) (./exemplo-tcc.aux)
 \openout1 = `exemplo-tcc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 59.
+(lastpage)             ! on input line 82.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count293
-\scratchdimen=\dimen169
-\scratchbox=\box55
-\nofMPsegments=\count294
-\nofMParguments=\count295
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count296
-\MPscratchDim=\dimen170
-\MPnumerator=\count297
-\makeMPintoPDFobject=\count298
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count294
+\scratchdimen=\dimen176
+\scratchbox=\box57
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen177
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -409,7 +428,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 59.
+Package hyperref Info: Link coloring OFF on input line 82.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -417,11 +436,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count299
+\c@section@level=\count300
 )
-LaTeX Info: Redefining \ref on input line 59.
-LaTeX Info: Redefining \pageref on input line 59.
-LaTeX Info: Redefining \nameref on input line 59.
+LaTeX Info: Redefining \ref on input line 82.
+LaTeX Info: Redefining \pageref on input line 82.
+LaTeX Info: Redefining \nameref on input line 82.
  (./exemplo-tcc.out) (./exemplo-tcc.out)
 \@outlinefile=\write3
 \openout3 = `exemplo-tcc.out'.
@@ -429,18 +448,18 @@ LaTeX Info: Redefining \nameref on input line 59.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 59.
-Package microtype Info: Applying patch `item' on input line 59.
-Package microtype Info: Applying patch `toc' on input line 59.
-Package microtype Info: Applying patch `eqnum' on input line 59.
-Package microtype Info: Applying patch `footnote' on input line 59.
+LaTeX Info: Redefining \microtypecontext on input line 82.
+Package microtype Info: Applying patch `item' on input line 82.
+Package microtype Info: Applying patch `toc' on input line 82.
+Package microtype Info: Applying patch `eqnum' on input line 82.
+Package microtype Info: Applying patch `footnote' on input line 82.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 59.
+LaTeX Info: Redefining \showhyphens on input line 82.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -448,10 +467,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<ufpelw.pdf, id=386, 258.96838pt x 261.97874pt>
+<ufpelw.pdf, id=332, 258.96838pt x 261.97874pt>
 File: ufpelw.pdf Graphic file (type pdf)
 <use ufpelw.pdf>
-Package pdftex.def Info: ufpelw.pdf  used on input line 64.
+Package pdftex.def Info: ufpelw.pdf  used on input line 87.
 (pdftex.def)             Requested size: 85.35826pt x 86.34932pt.
  [1
 
@@ -459,11 +478,11 @@ Package pdftex.def Info: ufpelw.pdf  used on input line 64.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 64.
+(Font)              <12> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 64.
+(Font)              <8> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 64.
+(Font)              <6> on input line 87.
  [2] [3
 
 
@@ -475,20 +494,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 98.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 121.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 98.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 121.
  [7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 105--107
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
  []
 
 [8
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
  []
 
@@ -501,13 +520,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  [10
 
-] (./exemplo-tcc.lot)
+] [11] (./exemplo-tcc.lot)
 \tf@lot=\write5
 \openout5 = `exemplo-tcc.lot'.
 
- [11
+ [12
 
-] [12
+] [13
 
 ] (./exemplo-tcc.toc
 Underfull \hbox (badness 10000) in paragraph at lines 4--4
@@ -525,62 +544,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
  []  
  []
 
-[13
+[14
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
  []  
  []
 
-[14]
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+ []  
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 92--92
  []  
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
- []  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
- []  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
- []  
- []
-
-)
+[15])
 \tf@toc=\write6
 \openout6 = `exemplo-tcc.toc'.
 
- [15] [16
-
-]
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 152.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
-File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `phv' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [17] [18] [19
-
-] [20] [21] [22
-
-] [23] [24] [25] [26] [27] [28] [29
-
-] [30] [31] [32] [33
-
-]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 463.
+ [16]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 168.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 168.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 168.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -588,110 +582,184 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [34]
-<exemplo-slides/graphics/images/watch history.png, id=901, 1926.19624pt x 955.57pt>
-File: exemplo-slides/graphics/images/watch history.png Graphic file (type png)
-<use exemplo-slides/graphics/images/watch history.png>
-Package pdftex.def Info: exemplo-slides/graphics/images/watch history.png  used on input line 507.
-(pdftex.def)             Requested size: 455.24263pt x 225.84209pt.
- [35]
-<exemplo-slides/graphics/images/pre-improved-readability.png, id=910, 1922.18124pt x 948.54375pt>
+ [17
+
+]
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 206.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [18] [19] [20
+
+] [21] [22] [23] [24
+
+] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40
+
+] [41] [42] [43] [44] [45] [46] [47]
+<exemplo-slides/graphics/images/c4_simplified-1.png, id=975, 1589.94pt x 933.4875pt>
+File: exemplo-slides/graphics/images/c4_simplified-1.png Graphic file (type png)
+<use exemplo-slides/graphics/images/c4_simplified-1.png>
+Package pdftex.def Info: exemplo-slides/graphics/images/c4_simplified-1.png  used on input line 797.
+(pdftex.def)             Requested size: 432.46767pt x 253.91093pt.
+ [48
+
+ <./exemplo-slides/graphics/images/c4_simplified-1.png>] [49] [50] [51] [52]
+<exemplo-slides/graphics/images/dropdown.png, id=1013, 485.56406pt x 59.47218pt>
+File: exemplo-slides/graphics/images/dropdown.png Graphic file (type png)
+<use exemplo-slides/graphics/images/dropdown.png>
+Package pdftex.def Info: exemplo-slides/graphics/images/dropdown.png  used on input line 912.
+(pdftex.def)             Requested size: 218.50922pt x 26.76314pt.
+<exemplo-slides/graphics/images/dropdown-aberto.png, id=1014, 151.3153pt x 119.69719pt>
+File: exemplo-slides/graphics/images/dropdown-aberto.png Graphic file (type png)
+<use exemplo-slides/graphics/images/dropdown-aberto.png>
+Package pdftex.def Info: exemplo-slides/graphics/images/dropdown-aberto.png  used on input line 918.
+(pdftex.def)             Requested size: 218.51726pt x 172.85693pt.
+
+Underfull \hbox (badness 2753) in paragraph at lines 919--919
+[]\T1/phv/m/n/10 (+20) (b) |Drop-down aberto mostrando as opções
+ []
+
+<exemplo-slides/graphics/images/pre-improved-readability.png, id=1018, 1922.18124pt x 948.54375pt>
 File: exemplo-slides/graphics/images/pre-improved-readability.png Graphic file (type png)
 <use exemplo-slides/graphics/images/pre-improved-readability.png>
-Package pdftex.def Info: exemplo-slides/graphics/images/pre-improved-readability.png  used on input line 531.
-(pdftex.def)             Requested size: 455.23227pt x 224.64464pt.
-<exemplo-slides/graphics/images/after-improved-readability.png, id=911, 1922.18124pt x 948.54375pt>
+Package pdftex.def Info: exemplo-slides/graphics/images/pre-improved-readability.png  used on input line 933.
+(pdftex.def)             Requested size: 223.0553pt x 110.07167pt.
+<exemplo-slides/graphics/images/after-improved-readability.png, id=1020, 1922.18124pt x 948.54375pt>
 File: exemplo-slides/graphics/images/after-improved-readability.png Graphic file (type png)
 <use exemplo-slides/graphics/images/after-improved-readability.png>
-Package pdftex.def Info: exemplo-slides/graphics/images/after-improved-readability.png  used on input line 538.
-(pdftex.def)             Requested size: 455.23227pt x 224.64464pt.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 539.
- [36 <./exemplo-slides/graphics/images/watch history.png>] [37 <./exemplo-slides/graphics/images/pre-improved-readability.png> <./exemplo-slides/graphics/images/after-improved-readability.png>]
-<exemplo-slides/graphics/images/logs-beam.png, id=924, 1654.18pt x 339.2675pt>
+Package pdftex.def Info: exemplo-slides/graphics/images/after-improved-readability.png  used on input line 939.
+(pdftex.def)             Requested size: 223.0553pt x 110.07167pt.
+[53 <./exemplo-slides/graphics/images/dropdown.png (PNG copy)> <./exemplo-slides/graphics/images/dropdown-aberto.png (PNG copy)>]
+<exemplo-slides/graphics/images/logs-beam.png, id=1029, 1654.18pt x 339.2675pt>
 File: exemplo-slides/graphics/images/logs-beam.png Graphic file (type png)
 <use exemplo-slides/graphics/images/logs-beam.png>
-Package pdftex.def Info: exemplo-slides/graphics/images/logs-beam.png  used on input line 564.
+Package pdftex.def Info: exemplo-slides/graphics/images/logs-beam.png  used on input line 953.
 (pdftex.def)             Requested size: 455.24165pt x 93.36873pt.
- [38 <./exemplo-slides/graphics/images/logs-beam.png>]
-<exemplo-slides/graphics/images/generate-chapters.png, id=931, 1924.18875pt x 953.5625pt>
+ [54 <./exemplo-slides/graphics/images/pre-improved-readability.png> <./exemplo-slides/graphics/images/after-improved-readability.png> <./exemplo-slides/graphics/images/logs-beam.png>] [55]
+<exemplo-slides/graphics/images/generate-chapters.png, id=1049, 1924.18875pt x 953.5625pt>
 File: exemplo-slides/graphics/images/generate-chapters.png Graphic file (type png)
 <use exemplo-slides/graphics/images/generate-chapters.png>
-Package pdftex.def Info: exemplo-slides/graphics/images/generate-chapters.png  used on input line 615.
+Package pdftex.def Info: exemplo-slides/graphics/images/generate-chapters.png  used on input line 994.
 (pdftex.def)             Requested size: 455.23793pt x 225.60043pt.
- [39]
-<exemplo-slides/graphics/images/after-chapter-generation.png, id=936, 1924.18875pt x 953.5625pt>
+<exemplo-slides/graphics/images/after-chapter-generation.png, id=1051, 1924.18875pt x 953.5625pt>
 File: exemplo-slides/graphics/images/after-chapter-generation.png Graphic file (type png)
 <use exemplo-slides/graphics/images/after-chapter-generation.png>
-Package pdftex.def Info: exemplo-slides/graphics/images/after-chapter-generation.png  used on input line 623.
+Package pdftex.def Info: exemplo-slides/graphics/images/after-chapter-generation.png  used on input line 1009.
 (pdftex.def)             Requested size: 455.23793pt x 225.60043pt.
-<exemplo-slides/graphics/images/table of contents.png, id=937, 646.415pt x 950.55125pt>
+ [56 <./exemplo-slides/graphics/images/generate-chapters.png>]
+<exemplo-slides/graphics/images/table of contents.png, id=1058, 483.30562pt x 709.14937pt>
 File: exemplo-slides/graphics/images/table of contents.png Graphic file (type png)
 <use exemplo-slides/graphics/images/table of contents.png>
-Package pdftex.def Info: exemplo-slides/graphics/images/table of contents.png  used on input line 638.
-(pdftex.def)             Requested size: 215.06345pt x 316.25012pt.
- [40 <./exemplo-slides/graphics/images/generate-chapters.png> <./exemplo-slides/graphics/images/after-chapter-generation.png>]
+Package pdftex.def Info: exemplo-slides/graphics/images/table of contents.png  used on input line 1024.
+(pdftex.def)             Requested size: 215.5386pt x 316.2576pt.
+ [57 <./exemplo-slides/graphics/images/after-chapter-generation.png>]
+<exemplo-slides/graphics/images/watch history.png, id=1065, 1926.19624pt x 955.57pt>
 File: exemplo-slides/graphics/images/watch history.png Graphic file (type png)
 <use exemplo-slides/graphics/images/watch history.png>
-Package pdftex.def Info: exemplo-slides/graphics/images/watch history.png  used on input line 650.
+Package pdftex.def Info: exemplo-slides/graphics/images/watch history.png  used on input line 1041.
 (pdftex.def)             Requested size: 455.24263pt x 225.84209pt.
- [41 <./exemplo-slides/graphics/images/table of contents.png>] [42]
-<exemplo-slides/graphics/images/transcription-modal.png, id=953, 426.59375pt x 628.3475pt>
+ [58 <./exemplo-slides/graphics/images/table of contents.png (PNG copy)>] [59 <./exemplo-slides/graphics/images/watch history.png>]
+<exemplo-slides/graphics/images/CC.png, id=1077, 478.78876pt x 57.21375pt>
+File: exemplo-slides/graphics/images/CC.png Graphic file (type png)
+<use exemplo-slides/graphics/images/CC.png>
+Package pdftex.def Info: exemplo-slides/graphics/images/CC.png  used on input line 1109.
+(pdftex.def)             Requested size: 455.24855pt x 54.40074pt.
+<exemplo-slides/graphics/images/transcription-modal.png, id=1079, 426.59375pt x 628.3475pt>
 File: exemplo-slides/graphics/images/transcription-modal.png Graphic file (type png)
 <use exemplo-slides/graphics/images/transcription-modal.png>
-Package pdftex.def Info: exemplo-slides/graphics/images/transcription-modal.png  used on input line 717.
+Package pdftex.def Info: exemplo-slides/graphics/images/transcription-modal.png  used on input line 1118.
 (pdftex.def)             Requested size: 214.70235pt x 316.24394pt.
- [43 <./exemplo-slides/graphics/images/transcription-modal.png>]
-<exemplo-slides/graphics/images/q_a.png, id=960, 904.37875pt x 873.2625pt>
+ [60 <./exemplo-slides/graphics/images/CC.png (PNG copy)>]
+<exemplo-slides/graphics/images/validating.png, id=1089, 388.45125pt x 193.72375pt>
+File: exemplo-slides/graphics/images/validating.png Graphic file (type png)
+<use exemplo-slides/graphics/images/validating.png>
+Package pdftex.def Info: exemplo-slides/graphics/images/validating.png  used on input line 1127.
+(pdftex.def)             Requested size: 455.25667pt x 227.04013pt.
+ [61 <./exemplo-slides/graphics/images/transcription-modal.png>]
+<exemplo-slides/graphics/images/downloading.png, id=1097, 386.44376pt x 75.28125pt>
+File: exemplo-slides/graphics/images/downloading.png Graphic file (type png)
+<use exemplo-slides/graphics/images/downloading.png>
+Package pdftex.def Info: exemplo-slides/graphics/images/downloading.png  used on input line 1136.
+(pdftex.def)             Requested size: 455.2449pt x 88.68405pt.
+<exemplo-slides/graphics/images/transcribing.png, id=1099, 380.42125pt x 138.5175pt>
+File: exemplo-slides/graphics/images/transcribing.png Graphic file (type png)
+<use exemplo-slides/graphics/images/transcribing.png>
+Package pdftex.def Info: exemplo-slides/graphics/images/transcribing.png  used on input line 1145.
+(pdftex.def)             Requested size: 455.25517pt x 165.76573pt.
+ [62 <./exemplo-slides/graphics/images/validating.png> <./exemplo-slides/graphics/images/downloading.png>]
+<exemplo-slides/graphics/images/completed-transcription.png, id=1107, 384.43625pt x 116.435pt>
+File: exemplo-slides/graphics/images/completed-transcription.png Graphic file (type png)
+<use exemplo-slides/graphics/images/completed-transcription.png>
+Package pdftex.def Info: exemplo-slides/graphics/images/completed-transcription.png  used on input line 1154.
+(pdftex.def)             Requested size: 455.27332pt x 137.88956pt.
+ [63 <./exemplo-slides/graphics/images/transcribing.png> <./exemplo-slides/graphics/images/completed-transcription.png>]
+<exemplo-slides/graphics/images/q_a.png, id=1114, 904.37875pt x 873.2625pt>
 File: exemplo-slides/graphics/images/q_a.png Graphic file (type png)
 <use exemplo-slides/graphics/images/q_a.png>
-Package pdftex.def Info: exemplo-slides/graphics/images/q_a.png  used on input line 746.
+Package pdftex.def Info: exemplo-slides/graphics/images/q_a.png  used on input line 1181.
 (pdftex.def)             Requested size: 327.52187pt x 316.25307pt.
- [44 <./exemplo-slides/graphics/images/q_a.png>]
-<exemplo-slides/graphics/images/true_or_false.png, id=966, 1040.88875pt x 738.76pt>
+ [64]
+<exemplo-slides/graphics/images/true_or_false.png, id=1119, 1040.88875pt x 738.76pt>
 File: exemplo-slides/graphics/images/true_or_false.png Graphic file (type png)
 <use exemplo-slides/graphics/images/true_or_false.png>
-Package pdftex.def Info: exemplo-slides/graphics/images/true_or_false.png  used on input line 758.
+Package pdftex.def Info: exemplo-slides/graphics/images/true_or_false.png  used on input line 1193.
 (pdftex.def)             Requested size: 445.5881pt x 316.25153pt.
- [45 <./exemplo-slides/graphics/images/true_or_false.png>] [46] [47] [48
+ [65 <./exemplo-slides/graphics/images/q_a.png>]
+<exemplo-slides/graphics/images/quizzes/botao-magic-functions.png, id=1126, 717.43031pt x 365.86688pt>
+File: exemplo-slides/graphics/images/quizzes/botao-magic-functions.png Graphic file (type png)
+<use exemplo-slides/graphics/images/quizzes/botao-magic-functions.png>
+Package pdftex.def Info: exemplo-slides/graphics/images/quizzes/botao-magic-functions.png  used on input line 1208.
+(pdftex.def)             Requested size: 455.25667pt x 232.16656pt.
+ [66 <./exemplo-slides/graphics/images/true_or_false.png>]
+<exemplo-slides/graphics/images/quizzes/three-dots.png, id=1133, 770.88pt x 203.25937pt>
+File: exemplo-slides/graphics/images/quizzes/three-dots.png Graphic file (type png)
+<use exemplo-slides/graphics/images/quizzes/three-dots.png>
+Package pdftex.def Info: exemplo-slides/graphics/images/quizzes/three-dots.png  used on input line 1219.
+(pdftex.def)             Requested size: 455.23872pt x 120.03363pt.
+ [67 <./exemplo-slides/graphics/images/quizzes/botao-magic-functions.png (PNG copy)> <./exemplo-slides/graphics/images/quizzes/three-dots.png (PNG copy)>]
+<exemplo-slides/graphics/images/quizzes/customizar-prompt.png, id=1140, 1058.95625pt x 343.2825pt>
+File: exemplo-slides/graphics/images/quizzes/customizar-prompt.png Graphic file (type png)
+<use exemplo-slides/graphics/images/quizzes/customizar-prompt.png>
+Package pdftex.def Info: exemplo-slides/graphics/images/quizzes/customizar-prompt.png  used on input line 1228.
+(pdftex.def)             Requested size: 455.24536pt x 147.57716pt.
+<exemplo-slides/graphics/images/quizzes/generated-spanish-questions.png, id=1142, 981.6675pt x 684.5575pt>
+File: exemplo-slides/graphics/images/quizzes/generated-spanish-questions.png Graphic file (type png)
+<use exemplo-slides/graphics/images/quizzes/generated-spanish-questions.png>
+Package pdftex.def Info: exemplo-slides/graphics/images/quizzes/generated-spanish-questions.png  used on input line 1239.
+(pdftex.def)             Requested size: 453.5198pt x 316.25818pt.
+ [68 <./exemplo-slides/graphics/images/quizzes/customizar-prompt.png> <./exemplo-slides/graphics/images/quizzes/generated-spanish-questions.png>]
+<exemplo-slides/graphics/images/video-chatbot.png, id=1149, 641.39626pt x 509.905pt>
+File: exemplo-slides/graphics/images/video-chatbot.png Graphic file (type png)
+<use exemplo-slides/graphics/images/video-chatbot.png>
+Package pdftex.def Info: exemplo-slides/graphics/images/video-chatbot.png  used on input line 1253.
+(pdftex.def)             Requested size: 397.81816pt x 316.26231pt.
+ [69 <./exemplo-slides/graphics/images/video-chatbot.png>] [70] [71] [72
 
-] [49] (./exemplo-tcc.bbl [50] [51
+] [73] (./exemplo-tcc.bbl [74] [75
 
-] [52]) [53] [54
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.889 \chapter{Um ApÃªndice}
-                             [55
-
-] [56
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.893 \chapter{Um Anexo}
-                         
+] [76] [77]) 
 AED: lastpage setting LastPage
-[57
-
-] (./exemplo-tcc.aux)
+[78] (./exemplo-tcc.aux)
 Package rerunfilecheck Info: File `exemplo-tcc.out' has not changed.
-(rerunfilecheck)             Checksum: E6C56F0BEDD3CA710C52AB2D697699C6;16937.
+(rerunfilecheck)             Checksum: 18D18A7953D574E19F21983D9275F1EB;14696.
  ) 
 Here is how much of TeX's memory you used:
- 15208 strings out of 480247
- 250464 string characters out of 5896106
- 599235 words of memory out of 5000000
- 32450 multiletter control sequences out of 15000+600000
- 519752 words of font info for 240 fonts, out of 8000000 for 9000
+ 15583 strings out of 480247
+ 259270 string characters out of 5896106
+ 603536 words of memory out of 5000000
+ 32693 multiletter control sequences out of 15000+600000
+ 524505 words of font info for 281 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,8n,77p,1063b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on exemplo-tcc.pdf (57 pages, 5027560 bytes).
+ 75i,10n,77p,1411b,525s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on exemplo-tcc.pdf (78 pages, 5589881 bytes).
 PDF statistics:
- 1096 PDF objects out of 1200 (max. 8388607)
- 998 compressed objects within 10 object streams
- 194 named destinations out of 1000 (max. 500000)
- 49976 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1285 PDF objects out of 1440 (max. 8388607)
+ 1143 compressed objects within 12 object streams
+ 246 named destinations out of 1000 (max. 500000)
+ 56073 words of extra memory for PDF output out of 61914 (max. 10000000)
 

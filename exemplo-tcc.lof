@@ -13,17 +13,26 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {Figura\ 1}{\ignorespaces Logs de execução no Beam Serverless GPU demonstrando o tempo de cold start (18s 573ms) na primeira requisição e tempos de resposta reduzidos (aproximadamente 50-100ms) nas requisições subsequentes\relax }}{36}{figure.caption.1}%
-\contentsline {figure}{\numberline {Figura\ 2}{\ignorespaces Comparação antes e após a segmentação de parágrafos.\relax }}{37}{figure.caption.2}%
-\contentsline {figure}{\numberline {Figura\ 3}{\ignorespaces Logs de execução no Beam Serverless GPU demonstrando o tempo de cold start (18s 573ms) na primeira requisição e tempos de resposta reduzidos (aproximadamente 50-100ms) nas requisições subsequentes\relax }}{38}{figure.caption.3}%
-\contentsline {figure}{\numberline {Figura\ 4}{\ignorespaces Antes da geração de capítulos. Aviso de que vídeo não possui capítulos e botão para geração\relax }}{40}{figure.caption.4}%
-\contentsline {figure}{\numberline {Figura\ 5}{\ignorespaces Após geração de capítulos.\relax }}{40}{figure.caption.5}%
-\contentsline {figure}{\numberline {Figura\ 6}{\ignorespaces Tabela de conteúdos gerada automaticamente a partir dos capítulos identificados\relax }}{41}{figure.caption.6}%
-\contentsline {figure}{\numberline {Figura\ 7}{\ignorespaces Histórico de visualização mostrando os últimos vídeos assistidos pelo usuário\relax }}{41}{figure.caption.7}%
-\contentsline {figure}{\numberline {Figura\ 8}{\ignorespaces \relax }}{43}{figure.caption.8}%
-\contentsline {figure}{\numberline {Figura\ 9}{\ignorespaces Exemplo de interface para perguntas e respostas.\relax }}{44}{figure.caption.9}%
-\contentsline {figure}{\numberline {Figura\ 10}{\ignorespaces Exemplo de interface para quest~oes de verdadeiro ou falso.\relax }}{45}{figure.caption.10}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figura\ 1}{\ignorespaces Diagrama de arquitetura do sistema VideoLearnAI\relax }}{48}{figure.caption.2}%
+\contentsline {figure}{\numberline {Figura\ 2}{\ignorespaces Interface para seleção do modo de leitura da transcrição\relax }}{53}{figure.caption.3}%
+\contentsline {figure}{\numberline {Figura\ 3}{\ignorespaces Comparação da legibilidade antes e depois do processamento com o modelo SAT\relax }}{54}{figure.caption.4}%
+\contentsline {figure}{\numberline {Figura\ 4}{\ignorespaces Logs de execução no Beam Serverless GPU demonstrando o tempo de cold start (18s 573ms) na primeira requisição e tempos de resposta reduzidos (aproximadamente 50-100ms) nas requisições subsequentes\relax }}{54}{figure.caption.5}%
+\contentsline {figure}{\numberline {Figura\ 5}{\ignorespaces Interface para iniciar o processo de geração automática de capítulos, mostrando o botão "Generate Chapters" que aciona o processamento\relax }}{56}{figure.caption.6}%
+\contentsline {figure}{\numberline {Figura\ 6}{\ignorespaces Interface após a geração de capítulos, os capítulos são listados no contexto do Chat e também na tabela de conteúdos que será apresentada na próxima seção\relax }}{57}{figure.caption.7}%
+\contentsline {figure}{\numberline {Figura\ 7}{\ignorespaces Interface do Sumário de Conteúdo, mostrando a lista de capítulos com indicadores de progresso e opções para marcar capítulos como concluídos\relax }}{58}{figure.caption.8}%
+\contentsline {figure}{\numberline {Figura\ 8}{\ignorespaces Tela de Histórico de Visualização, exibindo os vídeos assistidos pelo usuário com seus respectivos percentuais de progresso\relax }}{59}{figure.caption.9}%
+\contentsline {figure}{\numberline {Figura\ 9}{\ignorespaces Botão "CC" para iniciar o processo de transcrição\relax }}{60}{figure.caption.10}%
+\contentsline {figure}{\numberline {Figura\ 10}{\ignorespaces Modal de confirmação mostrando créditos disponíveis e duração do vídeo\relax }}{61}{figure.caption.11}%
+\contentsline {figure}{\numberline {Figura\ 11}{\ignorespaces Etapa de validação da duração do vídeo via API do YouTube\relax }}{62}{figure.caption.12}%
+\contentsline {figure}{\numberline {Figura\ 12}{\ignorespaces Progresso do download do áudio do vídeo com atualização percentual\relax }}{62}{figure.caption.13}%
+\contentsline {figure}{\numberline {Figura\ 13}{\ignorespaces Processo de transcrição em andamento com estimativa de tempo restante\relax }}{63}{figure.caption.14}%
+\contentsline {figure}{\numberline {Figura\ 14}{\ignorespaces Tela de conclusão do processo de transcrição\relax }}{63}{figure.caption.15}%
+\contentsline {figure}{\numberline {Figura\ 15}{\ignorespaces Exemplo de interface para perguntas e respostas.\relax }}{65}{figure.caption.16}%
+\contentsline {figure}{\numberline {Figura\ 16}{\ignorespaces Exemplo de interface para quest~oes de verdadeiro ou falso.\relax }}{66}{figure.caption.17}%
+\contentsline {figure}{\numberline {Figura\ 17}{\ignorespaces Botão ao final de cada capítulo, oferecendo diferentes opções de interação com o conteúdo\relax }}{67}{figure.caption.18}%
+\contentsline {figure}{\numberline {Figura\ 18}{\ignorespaces Botão de três pontos para acesso a customização do prompt, nesse caso específico para a opção de geração de questões de Verdadeiro ou Falso\relax }}{67}{figure.caption.19}%
+\contentsline {figure}{\numberline {Figura\ 19}{\ignorespaces Popover para customização do prompt utilizado na geração de questões\relax }}{68}{figure.caption.20}%
+\contentsline {figure}{\numberline {Figura\ 20}{\ignorespaces Questões de Verdadeiro ou Falso geradas em espanhol após customização do prompt\relax }}{68}{figure.caption.21}%
+\contentsline {figure}{\numberline {Figura\ 21}{\ignorespaces Interface do componente de bate-papo com vídeo, mostrando painel de seleção de contexto e área de conversação\relax }}{69}{figure.caption.22}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

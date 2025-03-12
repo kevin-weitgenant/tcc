@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: exemplo-tcc.aux
 The style file: abnt.bst
 Database file #1: bibliografia.bib
-You've used 26 entries,
+You've used 32 entries,
             2376 wiz_defined-function locations,
-            706 strings with 10367 characters,
-and the built_in function-call counts, 32711 in all, are:
-= -- 2376
-> -- 593
-< -- 1067
-+ -- 2149
-- -- 105
-* -- 2821
-:= -- 2810
-add.period$ -- 86
-call.type$ -- 26
-change.case$ -- 876
-chr.to.int$ -- 155
-cite$ -- 26
-duplicate$ -- 4012
-empty$ -- 1785
-format.name$ -- 1198
-if$ -- 5451
+            738 strings with 11435 characters,
+and the built_in function-call counts, 36281 in all, are:
+= -- 2584
+> -- 624
+< -- 1166
++ -- 2387
+- -- 118
+* -- 3190
+:= -- 3129
+add.period$ -- 103
+call.type$ -- 32
+change.case$ -- 971
+chr.to.int$ -- 103
+cite$ -- 32
+duplicate$ -- 4463
+empty$ -- 2079
+format.name$ -- 1329
+if$ -- 5994
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 0
-newline$ -- 55
-num.names$ -- 130
-pop$ -- 901
+newline$ -- 67
+num.names$ -- 160
+pop$ -- 1029
 preamble$ -- 1
-purify$ -- 26
+purify$ -- 32
 quote$ -- 0
-skip$ -- 1404
+skip$ -- 1531
 stack$ -- 0
-substring$ -- 776
-swap$ -- 3564
+substring$ -- 823
+swap$ -- 3944
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 130
+type$ -- 166
 warning$ -- 0
-while$ -- 159
+while$ -- 189
 width$ -- 0
-write$ -- 28
+write$ -- 34

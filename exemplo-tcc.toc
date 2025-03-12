@@ -1,103 +1,92 @@
 \babel@toc {brazilian}{}\relax 
 \babel@toc {brazilian}{}\relax 
 \babel@toc {brazilian}{}\relax 
-\contentsline {chapter}{\numberline {1}Introdução}{16}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Objetivo Geral}{17}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Objetivos Específicos}{17}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Estrutura do Trabalho}{17}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Soluções Relacionadas}{19}{chapter.2}%
-\contentsline {section}{\numberline {2.1}O Cenário Atual das Ferramentas de Aprendizado Assistido por IA}{19}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}YouLearn.ai}{19}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}StudyFetch}{19}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}VideoLearnAI: Uma Abordagem Distinta}{20}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Características Distintivas e Vantagens}{20}{subsection.2.2.1}%
-\contentsline {chapter}{\numberline {3}Fundamentação Teórica}{22}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Large Language Models (LLMs)}{22}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Conceitos Fundamentais}{22}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Arquitetura e Funcionamento}{23}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Prompt Engineering}{24}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Janela de Contexto e Tokens}{26}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Aprendizagem ativa}{28}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Processamento de Texto}{28}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Segmentação de Texto}{28}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Abordagens Tradicionais}{28}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Segment Any Text (SAT)}{28}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Aplicações Baseadas em LLMs}{28}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Integração com APIs de LLMs}{28}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Function Calling}{28}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Streaming de Respostas}{28}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Rate Limiting e Custos}{28}{subsection.3.4.4}%
-\contentsline {section}{\numberline {3.5}Computação em Nuvem Moderna}{28}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Arquitetura Serverless}{28}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Serverless GPU Computing}{28}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Desafios de Cold Start}{28}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Estratégias de Otimização}{28}{subsection.3.5.4}%
-\contentsline {chapter}{\numberline {4}Tecnologias utilizadas}{29}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Frameworks e Bibliotecas}{29}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}FastAPI}{29}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Next.js}{29}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Vercel AI SDK}{29}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Drizzle ORM}{30}{subsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.1.5}ShadCN}{30}{subsection.4.1.5}%
-\contentsline {subsection}{\numberline {4.1.6}Zustand}{30}{subsection.4.1.6}%
-\contentsline {subsection}{\numberline {4.1.7}Stripe}{31}{subsection.4.1.7}%
-\contentsline {section}{\numberline {4.2}Modelos de Machine Learning}{31}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}API Deepgram}{31}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}API GPT}{31}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Segment Anything (SaT)}{31}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Infraestrutura e Serviços em Nuvem}{31}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Open Next.js}{31}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Google Cloud}{31}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Beam Serverless GPU}{31}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Supabase}{32}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Sentry}{32}{subsection.4.3.5}%
-\contentsline {section}{\numberline {4.4}Ferramentas de Desenvolvimento}{32}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Visual Studio Code (VS Code)}{32}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Cursor}{32}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}v0.dev}{32}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}OpenAPI TypeScript Code Generator}{32}{subsection.4.4.4}%
-\contentsline {chapter}{\numberline {5}Desenvolvimento da Aplicação}{33}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Visão Geral da Arquitetura}{33}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Melhoria da Legibilidade das Legendas}{33}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}O Problema da Legibilidade}{33}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Primeira Abordagem com LLMs}{34}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Implementação com SaT (Segment Anything Text)}{34}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Interface e Experiência do Usuário}{36}{subsection.5.2.4}%
-\contentsline {subsection}{\numberline {5.2.5}Desafios de Implantação em Produção}{37}{subsection.5.2.5}%
-\contentsline {section}{\numberline {5.3}Geração de Capítulos}{38}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Algoritmo e Implementa\c {c}\~{a}o}{39}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Integra\c {c}\~{a}o com LLMs}{39}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Tabela de Conteúdos}{41}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}Últimos Vídeos Vistos}{41}{subsection.5.3.4}%
-\contentsline {section}{\numberline {5.4}Transcrição}{42}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Primeira implementação com Whisper}{42}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Migração para o Deepgram}{42}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Vantagens adicionais do Deepgram}{42}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Interface e Experiência do Usuário}{43}{subsection.5.4.4}%
-\contentsline {section}{\numberline {5.5}Gera\c {c}\~ao de Quizzes}{43}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Questões discursivas}{44}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Questões de Verdadeiro ou Falso}{45}{subsection.5.5.2}%
-\contentsline {section}{\numberline {5.6}Prompt por capítulo}{46}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Bate-Papo com Vídeo}{46}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}Visão Geral}{46}{subsection.5.7.1}%
-\contentsline {subsection}{\numberline {5.7.2}Interface do Usuário}{46}{subsection.5.7.2}%
-\contentsline {subsection}{\numberline {5.7.3}Gerenciamento de Contexto e Tokens}{46}{subsection.5.7.3}%
-\contentsline {subsection}{\numberline {5.7.4}Implementação Técnica}{46}{subsection.5.7.4}%
-\contentsline {subsubsection}{\numberline {5.7.4.1}Streaming e Processamento}{46}{subsubsection.5.7.4.1}%
-\contentsline {subsubsection}{\numberline {5.7.4.2}Perspectivas de Evolução}{47}{subsubsection.5.7.4.2}%
-\contentsline {subsection}{\numberline {5.7.5}Benefícios e Características}{47}{subsection.5.7.5}%
-\contentsline {section}{\numberline {5.8}Desafios e Soluções}{47}{section.5.8}%
-\contentsline {subsection}{\numberline {5.8.1}Obtenção dos dados do youtube}{47}{subsection.5.8.1}%
-\contentsline {subsection}{\numberline {5.8.2}Utilização de GPU's em produção}{47}{subsection.5.8.2}%
-\contentsline {chapter}{\numberline {6}CONCLUSÃO}{48}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Objetivos Alcançados}{48}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Trabalhos Futuros}{49}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Diarização e Análise de Múltiplos Falantes}{49}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Otimizações Técnicas}{49}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Expansão de Funcionalidades}{49}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Melhorias na Experiência do Usuário}{50}{subsection.6.2.4}%
-\contentsline {chapter}{Refer{\^e}ncias}{51}{subsection.6.2.4}%
-\settowidth {\ei@chapnumindent }{{\sffamily \textbf {\MakeUppercase {Ap{\^e}ndice} }}}\advance \ei@chapnumindent 1.8em\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {Ap{\^e}ndice} A}Um Apêndice}{55}{chapter.1}%
-\settowidth {\ei@chapnumindent }{{\sffamily \textbf {\MakeUppercase {Anexo} }}}\advance \ei@chapnumindent 1.8em\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {Anexo} A}Um Anexo}{57}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Introdução}{17}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivo Geral}{18}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objetivos Específicos}{18}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Estrutura do Trabalho}{19}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Soluções Relacionadas}{20}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Ferramentas Educacionais Potencializadas por IA}{20}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}YouLearn.ai}{20}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}StudyFetch}{21}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}VideoLearnAI: Uma Abordagem Especializada}{21}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Comparativo entre as Soluções}{22}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Fundamentação Teórica}{24}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Aprendizagem ativa}{24}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Fundamentos Teóricos}{24}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Princípios Cognitivos}{24}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Desafios da Aprendizagem com Vídeos}{25}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}VideoLearnAI como Ferramenta de Aprendizagem Ativa}{25}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Large Language Models (LLMs)}{26}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Conceitos Fundamentais}{27}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Arquitetura e Funcionamento}{28}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Prompt Engineering}{29}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Limitações}{30}{subsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.4.1}Janela de Contexto}{30}{subsubsection.3.2.4.1}%
+\contentsline {subsubsection}{\numberline {3.2.4.2}Limitações Arquiteturais}{32}{subsubsection.3.2.4.2}%
+\contentsline {section}{\numberline {3.3}LLM Powered Applications}{33}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Arquiteturas de Aplicações com LLMs}{33}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Function Calling}{34}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Agentes Autônomos Baseados em LLMs}{35}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Retrieval-Augmented Generation (RAG) e RAG Agêntico}{36}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Conclusão do capítulo}{38}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Tecnologias utilizadas}{40}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Frameworks e Bibliotecas}{40}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}FastAPI}{40}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Next.js}{40}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Vercel AI SDK}{41}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Drizzle ORM}{41}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}ShadCN}{42}{subsection.4.1.5}%
+\contentsline {subsection}{\numberline {4.1.6}Zustand}{42}{subsection.4.1.6}%
+\contentsline {subsection}{\numberline {4.1.7}Stripe}{42}{subsection.4.1.7}%
+\contentsline {section}{\numberline {4.2}Modelos de Machine Learning}{43}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}API Deepgram}{43}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}API GPT}{43}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Segment Anything (SaT)}{43}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Infraestrutura e Serviços em Nuvem}{44}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Open Next.js}{44}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Google Cloud}{44}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Beam Serverless GPU}{44}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Supabase}{45}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Sentry}{45}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Ferramentas de Desenvolvimento}{45}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Cursor}{45}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}v0.dev}{46}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Conclusão do capítulo}{46}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Desenvolvimento da Aplicação}{48}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Visão Geral da Arquitetura}{48}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Componentes Principais}{48}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}Frontend}{48}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.2}Backend Next.js}{49}{subsubsection.5.1.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.1.3}Backend FastAPI}{49}{subsubsection.5.1.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.1.4}Beam Serverless}{49}{subsubsection.5.1.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.1.5}Banco de Dados}{49}{subsubsection.5.1.1.5}%
+\contentsline {subsection}{\numberline {5.1.2}Integrações Externas}{49}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Fluxos de Comunicação}{50}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Melhoria da Legibilidade das Legendas}{50}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}O Problema da Legibilidade}{51}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Primeira Abordagem com LLMs}{51}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Implementação com SaT (Segment Anything Text)}{52}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Interface e Experiência do Usuário}{53}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}Gera\c {c}\~{a}o de Cap\'{i}tulos}{54}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Arquitetura do Sistema de Geração de Capítulos}{55}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Fluxo de Processamento}{55}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Integração com LLMs via Function Calling}{56}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Tabela de Conteúdos e Histórico de Visualização}{57}{subsection.5.3.4}%
+\contentsline {section}{\numberline {5.4}Geração de Transcrição}{59}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Primeira implementação com Whisper}{60}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Migração para o Deepgram}{60}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Interface e Experiência do Usuário}{60}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}Gera\c {c}\~ao de Quizzes}{63}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Questões discursivas}{65}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Questões de Verdadeiro ou Falso}{66}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Geração e Personalização de Quizzes}{66}{subsection.5.5.3}%
+\contentsline {section}{\numberline {5.6}Bate-Papo com Vídeo}{69}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Interface do Usuário}{69}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Gerenciamento de Contexto}{70}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}Benefícios e Características}{70}{subsection.5.6.3}%
+\contentsline {section}{\numberline {5.7}Discussão}{71}{section.5.7}%
+\contentsline {chapter}{\numberline {6}CONCLUSÃO}{72}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Objetivos Alcançados}{72}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Trabalhos Futuros}{73}{section.6.2}%
+\contentsline {chapter}{Refer{\^e}ncias}{75}{section.6.2}%

@@ -14,6 +14,19 @@
   Longformer: The long-document transformer. In: XIV PREPRINT ARXIV:2004.05150,
   2020. \textbf{Anais{\ldots}} [S.l.:~s.n.], 2020.
 
+\bibitem[Bommasani; Hudson; Adeli; Altman; Arora; Arx; Bernstein; Bohg;
+  Bosselut; Brunskill \MakeLowercase{et~al.}(2021)Bommasani; Hudson; Adeli;
+  Altman; Arora; Arx; Bernstein; Bohg; Bosselut; Brunskill
+  \MakeLowercase{et~al.}]{bommasani2021opportunities} BOMMASANI, R.; HUDSON,
+  D.~A.; ADELI, E.; ALTMAN, R.; ARORA, S.; ARX, S.~von; BERNSTEIN, M.~S.; BOHG,
+  J.; BOSSELUT, A.; BRUNSKILL, E. \MakeLowercase{et~al.} On the opportunities
+  and risks of foundation models. \textbf{arXiv preprint arXiv:2108.07258},
+  [S.l.], 2021.
+
+\bibitem[Bonwell; Eison(1991)Bonwell; Eison]{bonwell1991active} BONWELL, C.~C.;
+  EISON, J.~A\@. \textbf{Active Learning}: Creating Excitement in the
+  Classroom. [S.l.]: ASHE-ERIC Higher Education Report, 1991.
+
 \bibitem[Brown; Mann; Ryder; Subbiah; Kaplan; Dhariwal; Neelakantan; Shyam;
   Sastry; Askell \MakeLowercase{et~al.}(2020)Brown; Mann; Ryder; Subbiah;
   Kaplan; Dhariwal; Neelakantan; Shyam; Sastry; Askell
@@ -29,6 +42,21 @@
   Understanding. In: CONFERENCE OF THE NORTH AMERICAN CHAPTER OF THE
   ASSOCIATION FOR COMPUTATIONAL LINGUISTICS: HUMAN LANGUAGE TECHNOLOGIES,
   2019., 2019. \textbf{Proceedings{\ldots}} [S.l.:~s.n.], 2019. p.4171--4186.
+
+\bibitem[Dunlosky; Rawson; Marsh; Nathan; Willingham(2013)Dunlosky; Rawson;
+  Marsh; Nathan; Willingham]{dunlosky2013improving} DUNLOSKY, J.; RAWSON,
+  K.~A.; MARSH, E.~J.; NATHAN, M.~J.; WILLINGHAM, D.~T\@. Improving students'
+  learning with effective learning techniques: Promising directions from
+  cognitive and educational psychology. \textbf{Psychological Science in the
+  Public Interest}, [S.l.], v.14, n.1, p.4--58, 2013.
+
+\bibitem[Freeman; Eddy; Mcdonough; Smith; Okoroafor; Jordt;
+  Wenderoth(2014)Freeman; Eddy; Mcdonough; Smith; Okoroafor; Jordt;
+  Wenderoth]{freeman2014active} FREEMAN, S.; EDDY, S.~L.; MCDONOUGH, M.; SMITH,
+  M.~K.; OKOROAFOR, N.; JORDT, H.; WENDEROTH, M.~P\@. Active learning increases
+  student performance in science, engineering, and mathematics.
+  \textbf{Proceedings of the National Academy of Sciences}, [S.l.], v.111,
+  n.23, p.8410--8415, 2014.
 
 \bibitem[Frohmann; Sterner; Vulic; Minixhofer; Schedl(2024)Frohmann; Sterner;
   Vulic; Minixhofer; Schedl]{frohmann2024segment} FROHMANN, M.; STERNER, I.;
@@ -48,22 +76,17 @@
   Prediction. In: SWISS TEXT ANALYTICS CONFERENCE 2021, 2021, Winterthur,
   Switzerland. \textbf{Proceedings{\ldots}} CEUR Workshop Proceedings, 2021.
 
+\bibitem[Guo; Kim; Rubin(2014)Guo; Kim; Rubin]{guo2014video} GUO, P.~J.; KIM,
+  J.; RUBIN, R\@. How video production affects student engagement: An empirical
+  study of MOOC videos. \textbf{Proceedings of the first ACM conference on
+  Learning@ scale conference}, [S.l.], p.41--50, 2014.
+
 \bibitem[Kaplan; Mccandlish; Henighan; Brown; Chess; Child; Gray; Radford; Wu;
   Amodei(2020)Kaplan; Mccandlish; Henighan; Brown; Chess; Child; Gray; Radford;
   Wu; Amodei]{kaplan2020scaling} KAPLAN, J.; MCCANDLISH, S.; HENIGHAN, T.;
   BROWN, T.~B.; CHESS, B.; CHILD, R.; GRAY, S.; RADFORD, A.; WU, J.; AMODEI,
   D\@. Scaling laws for neural language models. \textbf{arXiv preprint
   arXiv:2001.08361}, [S.l.], 2020.
-
-\bibitem[Kasneci; Sessler; Küchemann; Bannert; Dementieva; Fischer; Gasser;
-  Groh; Günnemann; Hüllermeier \MakeLowercase{et~al.}(2023)Kasneci; Sessler;
-  Küchemann; Bannert; Dementieva; Fischer; Gasser; Groh; Günnemann;
-  Hüllermeier \MakeLowercase{et~al.}]{kasneci2023chatgpt} KASNECI, E.;
-  SESSLER, K.; KüCHEMANN, S.; BANNERT, M.; DEMENTIEVA, D.; FISCHER, F.;
-  GASSER, U.; GROH, G.; GüNNEMANN, S.; HüLLERMEIER, E. \MakeLowercase{et~al.}
-  ChatGPT for good? On opportunities and challenges of large language models
-  for education. \textbf{Learning and Individual Differences}, [S.l.], v.103,
-  p.102274, 2023.
 
 \bibitem[Kojima; Gu; Reid; Matsuo; Iwasawa(2022)Kojima; Gu; Reid; Matsuo;
   Iwasawa]{kojima2022large} KOJIMA, T.; GU, S.~S.; REID, M.; MATSUO, Y.;
@@ -92,23 +115,22 @@
   prompting methods in natural language processing. \textbf{ACM Computing
   Surveys}, [S.l.], v.55, n.9, p.1--35, 2023.
 
-\bibitem[Liu; Zhang; Hou; Mian; Wang; Zhang; Tang(2021)Liu; Zhang; Hou; Mian;
-  Wang; Zhang; Tang]{liu2021self} LIU, X.; ZHANG, F.; HOU, Z.; MIAN, L.; WANG,
-  Z.; ZHANG, J.; TANG, J\@. Self-supervised learning: Generative or
-  contrastive. \textbf{IEEE Transactions on Knowledge and Data Engineering},
-  [S.l.], v.35, n.1, p.677--694, 2021.
-
-\bibitem[Lu; Bartolo; Moore; Riedel; Stenetorp(2022)Lu; Bartolo; Moore; Riedel;
-  Stenetorp]{lu2022fantastically} LU, Y.; BARTOLO, M.; MOORE, A.; RIEDEL, S.;
-  STENETORP, P\@. Fantastically ordered prompts and where to find them:
-  Overcoming few-shot prompt order sensitivity. \textbf{arXiv preprint
-  arXiv:2104.08786}, [S.l.], 2022.
+\bibitem[Liu; Sun; Zhong; Han; Sun; Zhang; Peng; Tang; Huang; Lai
+  \MakeLowercase{et~al.}(2023)Liu; Sun; Zhong; Han; Sun; Zhang; Peng; Tang;
+  Huang; Lai \MakeLowercase{et~al.}]{liu2023evaluating} LIU, Y.; SUN, Y.;
+  ZHONG, Y.; HAN, C.; SUN, R.; ZHANG, X.; PENG, Y.; TANG, Z.; HUANG, J.; LAI,
+  Z. \MakeLowercase{et~al.} Evaluating large language models: A comprehensive
+  survey. \textbf{arXiv preprint arXiv:2310.19736}, [S.l.], 2023.
 
 \bibitem[{OpenAI}(2023a){OpenAI}]{openai2023gpt4} {OpenAI}. GPT-4 Technical
   Report. \textbf{arXiv preprint arXiv:2303.08774}, [S.l.], 2023.
 
 \bibitem[{OpenAI}(2023b){OpenAI}]{openai2023pricing} {OpenAI}.
   \textbf{Pricing}. Accessed: 2023-12-01, \url{https://openai.com/pricing}.
+
+\bibitem[Prince(2004)Prince]{prince2004does} PRINCE, M\@. Does active learning
+  work? A review of the research. \textbf{Journal of Engineering Education},
+  [S.l.], v.93, n.3, p.223--231, 2004.
 
 \bibitem[Radford; Wu; Child; Luan; Amodei; Sutskever(2019)Radford; Wu; Child;
   Luan; Amodei; Sutskever]{radford2019language} RADFORD, A.; WU, J.; CHILD, R.;
@@ -122,11 +144,15 @@
   of transfer learning with a unified text-to-text transformer. \textbf{Journal
   of Machine Learning Research}, [S.l.], v.21, p.1--67, 2020.
 
-\bibitem[Sennrich; Haddow; Birch(2016)Sennrich; Haddow;
-  Birch]{sennrich2016neural} SENNRICH, R.; HADDOW, B.; BIRCH, A\@. Neural
-  machine translation of rare words with subword units. In: ANNUAL MEETING OF
-  THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS, 54., 2016.
-  \textbf{Proceedings{\ldots}} [S.l.:~s.n.], 2016. p.1715--1725.
+\bibitem[Schwan; Riempp(2004)Schwan; Riempp]{schwan2004learning} SCHWAN, S.;
+  RIEMPP, R\@. Learning by viewing versus learning by doing: Evidence-based
+  guidelines for principled learning environments. \textbf{Learning and
+  Instruction}, [S.l.], v.14, n.6, p.587--596, 2004.
+
+\bibitem[Singh; Ehtesham; Kumar; Khoei(2025)Singh; Ehtesham; Kumar;
+  Khoei]{singh2025agentic} SINGH, A.; EHTESHAM, A.; KUMAR, S.; KHOEI, T.~T\@.
+  Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG.
+  \textbf{arXiv preprint arXiv:2501.09136}, [S.l.], 2025.
 
 \bibitem[Vaswani; Shazeer; Parmar; Uszkoreit; Jones; Gomez; Kaiser;
   Polosukhin(2017)Vaswani; Shazeer; Parmar; Uszkoreit; Jones; Gomez; Kaiser;
@@ -135,10 +161,10 @@
   Attention is all you need. In: ADVANCES IN NEURAL INFORMATION PROCESSING
   SYSTEMS, 2017. \textbf{Anais{\ldots}} [S.l.:~s.n.], 2017. p.5998--6008.
 
-\bibitem[Wang; Wei; Schuurmans; Le; Chi; Zhou(2023)Wang; Wei; Schuurmans; Le;
-  Chi; Zhou]{wang2023self} WANG, X.; WEI, J.; SCHUURMANS, D.; LE, Q.; CHI, E.;
-  ZHOU, D\@. Self-consistency improves chain of thought reasoning in language
-  models. \textbf{arXiv preprint arXiv:2203.11171}, [S.l.], 2023.
+\bibitem[Vemprala; Bonatti; Bucker; Kapoor(2023)Vemprala; Bonatti; Bucker;
+  Kapoor]{vemprala2023chatgpt} VEMPRALA, S.; BONATTI, R.; BUCKER, A.; KAPOOR,
+  A\@. ChatGPT for robotics: Design principles and model abilities.
+  \textbf{arXiv preprint arXiv:2306.17582}, [S.l.], 2023.
 
 \bibitem[Wei; Wang; Schuurmans; Bosma; Ichter; Xia; Chi; Le; Zhou(2022)Wei;
   Wang; Schuurmans; Bosma; Ichter; Xia; Chi; Le; Zhou]{wei2022chain} WEI, J.;
@@ -146,6 +172,9 @@
   ZHOU, D\@. Chain of thought prompting elicits reasoning in large language
   models. \textbf{Advances in Neural Information Processing Systems}, [S.l.],
   v.35, p.24824--24837, 2022.
+
+\bibitem[Weng(2023)Weng]{weng2023llm} WENG, L\@. LLM powered autonomous agents.
+  \textbf{lilianweng.github.io}, [S.l.], 2023.
 
 \bibitem[White; Fu; Hays; Sandborn; Olea; Gilbert; Elnashar; Spencer-smith;
   Schmidt(2023)White; Fu; Hays; Sandborn; Olea; Gilbert; Elnashar;
